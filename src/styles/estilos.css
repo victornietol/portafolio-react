@@ -1,0 +1,18 @@
+#navbar {
+    transition: top 0.15s;
+}
+
+.bg-azulMarinoOscuro {
+    background-color: #00052f !important;
+    color: white !important;
+}
+
+.texto-categoria-tec {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+/* Aumenta el espacio entre los números de línea y el código */
+.hljs-ln-numbers {
+    border-right: 15px solid #cccccc00;
+}
