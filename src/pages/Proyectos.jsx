@@ -29,7 +29,7 @@ function Proyectos() {
             <section>
                 <div className="container">
                     <div className="row">
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Chatbot Sencillo</p>
                                 <div>
@@ -55,7 +55,7 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">App Gestor de Presupuestos</p>
                                 <div>
@@ -82,7 +82,7 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">App Guía de Videojuego</p>
                                 <div>
@@ -109,7 +109,7 @@ function Proyectos() {
                             </div>
                         </section>
                         
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Probabilidades de partidos</p>
                                 <div>
@@ -136,7 +136,7 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Bases de datos relacionales</p>
                                 <div>
@@ -159,7 +159,7 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Sistema de recomendaciones sencillo</p>
                                 <div>
@@ -183,7 +183,7 @@ function Proyectos() {
                             </div>
                         </section>
                         
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Ejemplo de compilador sencillo</p>
                                 <div>
@@ -208,7 +208,7 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Algoritmo genético y convertidor de AFND a AFD</p>
                                 <div>
@@ -231,7 +231,7 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Práctica cifrado</p>
                                 <div>
@@ -257,7 +257,7 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center">
+                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Videojuegos</p>
                                 <div>

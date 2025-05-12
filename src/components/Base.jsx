@@ -69,7 +69,7 @@ function Base() {
         <>
             <nav ref={navbarRef} id="navbar" className="navbar navbar-expand-lg navbar-light bg-azulMarinoOscuro navbar-dark fixed-top navbar-transition" style={{ backgroundColor: "#00052f", transition: "top 0.15s" }}>
                 <div className="container">
-                    <NavLink to="/" className="navbar-brand">
+                    <NavLink to="/" className="navbar-brand img-hover-efecto">
                         <i className="bi bi-power"></i> Portafolio
                     </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,17 +77,17 @@ function Base() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
+                            <li className="nav-item img-hover-efecto">
                                 <NavLink to="/" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
                                 <i className="bi bi-house-door-fill"></i> Inicio
                                 </NavLink>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item img-hover-efecto">
                                 <NavLink to="/proyectos" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
                                 <i className="bi bi-terminal-fill"></i> Proyectos
                                 </NavLink>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item img-hover-efecto">
                                 <NavLink to="/contacto" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}>
                                 <i className="bi bi-person-fill"></i> Contacto
                                 </NavLink>
@@ -108,7 +108,7 @@ function Base() {
 
             <footer className="bg-dark text-secondary text-center py-3 mt-auto">
                 <p className="mb-0">
-                    2025 | Victor Manuel Nieto Licona | <NavLink to="/contacto">Contacto</NavLink>
+                    2025 | Victor Manuel Nieto Licona | <NavLink className="text-secondary" to="/contacto">Contacto</NavLink>
                 </p>
             </footer>
 

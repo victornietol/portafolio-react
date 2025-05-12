@@ -25,3 +25,23 @@
     transform: scale(1.05);
     box-shadow: 0 10px 8px rgba(0,0,0,0.2);
 }
+
+.img-hover-efecto {
+    transition: transform 0.2s ease;
+}
+
+.img-hover-efecto:hover {
+    transform: scale(1.15);
+}
+
+.card-hover-efecto {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative; /* Necesario para aplicar z-index */
+    z-index: 1;
+}
+
+.card-hover-efecto:hover {
+    transform: scale(1.08);
+    box-shadow: 0 14px 8px rgba(0,0,0,0.2);
+    z-index: 10;
+}
