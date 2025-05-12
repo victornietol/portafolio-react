@@ -75,7 +75,7 @@ function Proyectos() {
                                     </div>
                                 </div>
                                 <div className="text-center">
-                                    <NavLink className="btn btn-dark btn-hover-efecto mb-3 mt-4" style={{background: "#020059"}} to="/proyectos/proyecto_gestor_presupuestos'">
+                                    <NavLink className="btn btn-dark btn-hover-efecto mb-3 mt-4" style={{background: "#020059"}} to="/proyectos/proyecto_gestor_presupuestos">
                                         <i className="bi bi-eye-fill"></i> Ver proyecto
                                     </NavLink>
                                 </div>
