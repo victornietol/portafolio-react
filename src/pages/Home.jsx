@@ -1,6 +1,12 @@
+import { Helmet } from 'react-helmet-async';
+import { NavLink } from "react-router-dom";
+
 function Home() {
     return (
         <>
+            <Helmet>
+                <title>Inicio | Portafolio</title>
+            </Helmet>
             <section className="card card-body mt-5">
                 <div>
                     <h1 className="display-3 text-center">Victor Manuel Nieto Licona</h1>
@@ -9,9 +15,9 @@ function Home() {
                 <hr></hr>
                 <div className="px-md-5 text-center">
                     <p style={{textAlign: "justify"}}>"Soy recién egresado de Ingeniería en Computación, con enfoque en Desarrollo de Software en busca de aplicar y ampliar mis habilidades y conocimientos en un entorno profesional con el objetivo de contribuir a la creación, implementación y mantenimiento de sistemas y aplicaciones que aporten valor. He aprendido a adaptarme a las tecnologías y herramientas según las necesidades del proyecto, lo cual, me ha permitido desarrollar proyectos como aplicaciones móviles, chatbot básico basado en grafos, programas sencillos con interfaz, sitios web, bases de datos relacionales, implementación de servidores locales, desarrollo de videojuegos, entre otros."</p>
-                    <a className="btn btn-dark mb-3 mt-1" style={{background: "#020059"}} href="">
+                    <NavLink className="btn btn-dark btn-hover-efecto mb-3 mt-1" style={{background: "#020059"}} to="/proyectos">
                         <i className="bi bi-eye-fill"></i> Ver proyectos
-                    </a>
+                    </NavLink>
                 </div>
             </section>
 

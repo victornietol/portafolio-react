@@ -4,27 +4,31 @@ import { useEffect, useRef, useState } from "react";
 function Base() {
     const navbarRef = useRef(null);
     const btnSubirRef = useRef(null);
-    const imagenModalRef = useRef(null);
     const [currentScale, setCurrentScale] = useState(1);
     const prevScrollY = useRef(window.scrollY);
     const [modalSrc, setModalSrc] = useState("");
+    const imagenModalRef = useRef(null);
+    const modalElementRef = useRef(null);
+    const modalRef = useRef(null);
 
     useEffect(() => {
+        if (modalElementRef.current) {
+            modalRef.current = new bootstrap.Modal(modalElementRef.current);
+        }
+
         const handleScroll = () => {
-        const currentScrollY = window.scrollY;
+            const currentScrollY = window.scrollY;
 
-        // Ocultar o mostrar navbar
-        if (navbarRef.current) {
-            navbarRef.current.style.top =
-            prevScrollY.current > currentScrollY ? "0" : "-180px";
-        }
-        prevScrollY.current = currentScrollY;
+            // Ocultar o mostrar navbar
+            if (navbarRef.current) {
+                navbarRef.current.style.top = prevScrollY.current > currentScrollY ? "0" : "-180px";
+            }
+            prevScrollY.current = currentScrollY;
 
-        // Mostrar u ocultar botón de subir
-        if (btnSubirRef.current) {
-            btnSubirRef.current.style.display =
-            currentScrollY > 300 ? "block" : "none";
-        }
+            // Mostrar u ocultar botón de subir
+            if (btnSubirRef.current) {
+                btnSubirRef.current.style.display = currentScrollY > 300 ? "block" : "none";
+            }
         };
 
         window.addEventListener("scroll", handleScroll);
@@ -65,9 +69,9 @@ function Base() {
         <>
             <nav ref={navbarRef} id="navbar" className="navbar navbar-expand-lg navbar-light bg-azulMarinoOscuro navbar-dark fixed-top navbar-transition" style={{ backgroundColor: "#00052f", transition: "top 0.15s" }}>
                 <div className="container">
-                    <a className="navbar-brand" href="/">
+                    <NavLink to="/" className="navbar-brand">
                         <i className="bi bi-power"></i> Portafolio
-                    </a>
+                    </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -95,7 +99,7 @@ function Base() {
 
             <main className="container py-5 flex-grow-1" style={{ paddingTop: "70px" }}>
                 {/* Aqui se renderiza el contenido de las paginas */}
-                <Outlet />
+                <Outlet context={{ setModalSrc, openModal: () => modalRef.current?.show() }} />
 
                 <button ref={btnSubirRef} id="btn-subir" title="Subir al inicio de la página" className="btn btn-light position-fixed bottom-0 end-0 m-3 rounded animate__animated animate__backInUp" style={{ display: "none", width: "45px", height: "45px" }}  onClick={handleSubir}>
                     <i className="bi bi-arrow-up"></i>
@@ -104,12 +108,12 @@ function Base() {
 
             <footer className="bg-dark text-secondary text-center py-3 mt-auto">
                 <p className="mb-0">
-                    2025 | Victor Manuel Nieto Licona | <a className="Nametext-secondary" href="">Contacto</a>
+                    2025 | Victor Manuel Nieto Licona | <NavLink to="/contacto">Contacto</NavLink>
                 </p>
             </footer>
 
             {/* Modal para poder mostrar la imagen con zoom */}
-            <div className="modal fade" id="modalImagen" tabIndex="-1" aria-hidden="true">
+            <div ref={modalElementRef} className="modal fade" id="modalImagen" tabIndex="-1" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered modal-lg">
                     <div className="modal-content bg-transparent border-0">
                     <div className="modal-body d-flex flex-column p-0 position-relative">

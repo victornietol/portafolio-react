@@ -2,9 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Base from '/src/components/Base';
 import Home from '/src/pages/Home';
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
+import Proyectos from '/src/pages/Proyectos';
 
 function App() {
   return (
@@ -13,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Base/>}>
             <Route index element={<Home />} />
+            <Route path="/proyectos" element={<Proyectos />} />
 
           </Route>
         </Routes>
