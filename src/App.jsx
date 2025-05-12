@@ -7,8 +7,8 @@ import Proyectos from './pages/Proyectos';
 import Contacto from './pages/Contacto';
 import Chatbot from './pages/proyectos/Chatbot';
 import Gestor_presupuestos from './pages/proyectos/Gestor_presupuestos';
-{/*
 import Guia_videojuego from "./pages/proyectos/Guia_videojuego";
+{/*
 import Prob_partidos from "./pages/proyectos/Prob_partidos";
 import Bases_datos from "./pages/proyectos/Bases_datos_sql";
 import Recomendador_beb from "./pages/proyectos/Recomendador_beb";
@@ -30,8 +30,8 @@ function App() {
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/proyectos/proyecto_chatbot" element={<Chatbot />} />
             <Route path="/proyectos/proyecto_gestor_presupuestos" element={<Gestor_presupuestos />} />
-            {/*
             <Route path="/proyectos/proyecto_guia_videojuego" element={<Guia_videojuego />} />
+            {/*
             <Route path="/proyectos/proyecto_prob_partidos" element={<Prob_partidos />} />
             <Route path="/proyectos/proyecto_bases_datos_sql" element={<Bases_datos />} />
             <Route path="/proyectos/proyecto_recomendador_beb" element={<Recomendador_beb />} />
