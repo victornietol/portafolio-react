@@ -250,7 +250,7 @@ function Proyectos() {
                                     </div>
                                 </div>
                                 <div className="text-center">
-                                    <NavLink className="btn btn-dark btn-hover-efecto mb-3 mt-4" style={{background: "#020059"}} to="/proyecto/proyecto_practica_cifrado">
+                                    <NavLink className="btn btn-dark btn-hover-efecto mb-3 mt-4" style={{background: "#020059"}} to="/proyectos/proyecto_practica_cifrado">
                                         <i className="bi bi-eye-fill"></i> Ver proyecto
                                     </NavLink>
                                 </div>
