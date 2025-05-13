@@ -28,6 +28,7 @@ function Base() {
             // Mostrar u ocultar botón de subir
             if (btnSubirRef.current) {
                 btnSubirRef.current.style.display = currentScrollY > 300 ? "block" : "none";
+                btnSubirRef.current.style.zIndex = 11;
             }
         };
 

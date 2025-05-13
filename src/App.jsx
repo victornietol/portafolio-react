@@ -11,10 +11,11 @@ import Guia_videojuego from "./pages/proyectos/Guia_videojuego";
 import Prob_partidos from "./pages/proyectos/Prob_partidos";
 import Bases_datos from "./pages/proyectos/Bases_datos_sql";
 import Recomendador_beb from "./pages/proyectos/Recomendador_beb";
-import Compilador_sencillo from "./pages/proyectos/compilador_sencillo";
+import Compilador_sencillo from "./pages/proyectos/Compilador_sencillo";
 import AlgoritmoGenetico_AFD from "./pages/proyectos/AlgoritmoGenetico_AFD";
 import Practica_cifrado from "./pages/proyectos/Practica_cifrado";
 import Videojuegos from "./pages/proyectos/Videojuegos";
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
             <Route path="/proyectos/proyecto_algoritmoGenetico_AFD" element={<AlgoritmoGenetico_AFD />} />
             <Route path="/proyectos/proyecto_practica_cifrado" element={<Practica_cifrado />} />
             <Route path="/proyectos/proyecto_videojuegos" element={<Videojuegos />} />
+
+            <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>

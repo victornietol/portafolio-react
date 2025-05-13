@@ -91,27 +91,27 @@ function Recomendador_beb() {
                     <p style={{textAlign: "justify"}}>
                         Posteriormente se calculan las probabilidades condicionales, y para ello, se utiliza el teorema de Bayes.
                     </p>
-                    <img src="/src/assets/proyectos/recomendador_beb/1.png" title="Teorema de Bayes" className="img-fluid mx-auto d-block mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/1.png")} alt="Img teorema bayes recomendador" loading="lazy"></img>
+                    <img src="/proyectos/recomendador_beb/1.png" title="Teorema de Bayes" className="img-fluid mx-auto d-block mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/1.png")} alt="Img teorema bayes recomendador" loading="lazy"></img>
                     <p style={{textAlign: "justify"}}>
                         Por lo tanto, se obtiene la distribución de Z, correspondiente a la probabilidad a priori.
                     </p>
-                    <img src="/src/assets/proyectos/recomendador_beb/2.png" title="distribución de Z" className="img-fluid mx-auto d-block mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/2.png")} alt="Img teorema bayes recomendador 2" loading="lazy"></img>
+                    <img src="/proyectos/recomendador_beb/2.png" title="distribución de Z" className="img-fluid mx-auto d-block mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/2.png")} alt="Img teorema bayes recomendador 2" loading="lazy"></img>
                     <p style={{textAlign: "justify"}}>
                         Después, se calcula la distribución conjunta P, que dentro de la fórmula de Bayes en este proyecto corresponde a la evidencia, para posteriormente calcular la verosimilitud o likelihood.
                     </p>
-                    <img src="/src/assets/proyectos/recomendador_beb/3.png" title="distribución de conjunta P" className="img-fluid mx-auto d-block mt-2 mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/3.png")} alt="Img teorema bayes recomendador 3" loading="lazy"></img>
+                    <img src="/proyectos/recomendador_beb/3.png" title="distribución de conjunta P" className="img-fluid mx-auto d-block mt-2 mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/3.png")} alt="Img teorema bayes recomendador 3" loading="lazy"></img>
                     <p style={{textAlign: "justify"}}>
                         Con el resultado de las operaciones anteriores ya se le pueden introducir al sistema los datos de edad (menor, adulto, adulto mayor) y temperatura del día (cálido, templado, frío) para obtener como resultado la sugerencia de bebida (fría o caliente).
                     </p>
-                    <img src="/src/assets/proyectos/recomendador_beb/4.png" title="Resultados 1" className="img-fluid mx-auto d-block w-50 mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/4.png")} alt="Img recomendador 4" loading="lazy"></img>
-                    <img src="/src/assets/proyectos/recomendador_beb/5.png" title="Resultados 2" className="img-fluid mx-auto d-block w-50 mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/5.png")} alt="Img recomendador 5" loading="lazy"></img>
+                    <img src="/proyectos/recomendador_beb/4.png" title="Resultados 1" className="img-fluid mx-auto d-block w-50 mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/4.png")} alt="Img recomendador 4" loading="lazy"></img>
+                    <img src="/proyectos/recomendador_beb/5.png" title="Resultados 2" className="img-fluid mx-auto d-block w-50 mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/5.png")} alt="Img recomendador 5" loading="lazy"></img>
                 </div>
             </section>
 
             <section className="card card-body mt-3">
                 <div className="px-md-5 text-center">
                     <h3 className="pb-4 pt-4" style={{textAlign: "start"}}>Descripción de la interfaz</h3>
-                    <img src="/src/assets/proyectos/recomendador_beb/6.png" title="Descripcion interfaz" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/6.png")} alt="Img interfaz sistema" loading="lazy"></img>
+                    <img src="/proyectos/recomendador_beb/6.png" title="Descripcion interfaz" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/6.png")} alt="Img interfaz sistema" loading="lazy"></img>
                 </div>
                 <div className="mt-2 mb-3"></div>
                 <div className="px-md-5">
@@ -121,7 +121,7 @@ function Recomendador_beb() {
                             <strong>1.1. Objetivo y definición.</strong>{" "}
                             Esta pestaña despliega el objetivo y definición del proyecto.
                         </p>
-                        <img src="/src/assets/proyectos/recomendador_beb/7.png" title="Descripcion interfaz 1" className="img-fluid mx-auto d-block mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/7.png")} alt="Img interfaz sistema 1" loading="lazy"></img>
+                        <img src="/proyectos/recomendador_beb/7.png" title="Descripcion interfaz 1" className="img-fluid mx-auto d-block mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/7.png")} alt="Img interfaz sistema 1" loading="lazy"></img>
                         <p style={{textAlign: "justify"}}>
                             <strong>1.2. Código del programa.</strong>{" "}
                             Abre un enlace en el navegador predeterminado del sistema y te dirige a una página que contiene el código del programa.
@@ -130,7 +130,7 @@ function Recomendador_beb() {
                             <strong>1.3. Acerca de.</strong>{" "}
                             Abre una pestaña con información como nombre del alumno, plantel, nombre del profesor, materia, etc.
                         </p>
-                        <img src="/src/assets/proyectos/recomendador_beb/8.png" title="Descripcion interfaz 2" className="img-fluid mx-auto d-block mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/8.png")} alt="Img interfaz sistema 2" loading="lazy"></img>
+                        <img src="/proyectos/recomendador_beb/8.png" title="Descripcion interfaz 2" className="img-fluid mx-auto d-block mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/8.png")} alt="Img interfaz sistema 2" loading="lazy"></img>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>2. Entrada de datos</strong>{" "}
@@ -150,7 +150,7 @@ function Recomendador_beb() {
                             <strong>4.1. Consulta.</strong>{" "}
                             Genera la sugerencia y verifica que los campos contengan valores válidos según las especificaciones que se proporcionan en el botón de información. Una vez que se da el resultado de la sugerencia se deshabilita el botón consulta. En caso de que haya un campo con valores incorrectos muestra las siguientes ventanas dependiendo el caso.
                         </p>
-                        <img src="/src/assets/proyectos/recomendador_beb/9.png" title="Descripcion interfaz 3" className="img-fluid mx-auto d-block mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/9.png")} alt="Img interfaz sistema 3" loading="lazy"></img>
+                        <img src="/proyectos/recomendador_beb/9.png" title="Descripcion interfaz 3" className="img-fluid mx-auto d-block mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/9.png")} alt="Img interfaz sistema 3" loading="lazy"></img>
                         <p style={{textAlign: "justify"}}>
                             <strong>4.2. Nueva consulta.</strong>{" "}
                             Genera la sugerencia y verifica que los campos contengan valores válidos según las especificaciones que se proporcionan en el botón de información. Una vez que se da el resultado de la sugerencia se deshabilita el botón consulta. En caso de que haya un campo con valores incorrectos muestra las siguientes ventanas dependiendo el caso.
@@ -161,7 +161,7 @@ function Recomendador_beb() {
                         <p style={{textAlign: "justify"}}>
                             Este botón despliega una ventana que muestra información sobre que valores son válidos para poder realizar las sugerencias. 
                         </p>
-                        <img src="/src/assets/proyectos/recomendador_beb/10.png" title="Descripcion interfaz 4" className="img-fluid mx-auto d-block mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/10.png")} alt="Img interfaz sistema 4" loading="lazy"></img>
+                        <img src="/proyectos/recomendador_beb/10.png" title="Descripcion interfaz 4" className="img-fluid mx-auto d-block mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/10.png")} alt="Img interfaz sistema 4" loading="lazy"></img>
                     </section>
                 </div>
             </section>

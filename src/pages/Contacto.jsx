@@ -13,7 +13,7 @@ function Contacto() {
 
             <section className="card card-body mt-5 pt-4 bg-light">
                 <div className="px-md-5 text-center">
-                    <img src="/src/assets/logos/logo-personal-sinFondo-2.png" className="pb-3" style={{maxWidth: "80px"}} alt="Logo"></img>
+                    <img src="/logos/logo-personal-sinFondo-2.png" className="pb-3" style={{maxWidth: "80px"}} alt="Logo"></img>
                     <p>
                         <strong>Victor Manuel Nieto Licona</strong>
                         <br></br>

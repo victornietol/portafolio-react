@@ -93,13 +93,13 @@ function Compilador_sencillo() {
                     <p style={{textAlign: "justify"}}>
                         A continuación, se muestra un ejemplo del archivo "entrada.txt" cargado en el sistema y el resultado que genera.
                     </p>
-                    <img src="/src/assets/proyectos/compilador_sencillo/4.png" title="entrada.txt" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/compilador_sencillo/4.png")} alt="img sistema 4" loading="lazy"></img>
+                    <img src="/proyectos/compilador_sencillo/4.png" title="entrada.txt" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/4.png")} alt="img sistema 4" loading="lazy"></img>
                     <p className="mt-3" style={{textAlign: "justify"}}>
                         Salida:
                     </p>
-                    <img src="/src/assets/proyectos/compilador_sencillo/1.png" title="Salida parte 1" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/compilador_sencillo/1.png")} alt="img sistema 1" loading="lazy"></img><br />
-                    <img src="/src/assets/proyectos/compilador_sencillo/2.png" title="Salida parte 2" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/compilador_sencillo/2.png")} alt="img sistema 2" loading="lazy"></img><br />
-                    <img src="/src/assets/proyectos/compilador_sencillo/3.png" title="Salida parte 3" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/compilador_sencillo/3.png")} alt="img sistema 3" loading="lazy"></img>
+                    <img src="/proyectos/compilador_sencillo/1.png" title="Salida parte 1" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/1.png")} alt="img sistema 1" loading="lazy"></img><br />
+                    <img src="/proyectos/compilador_sencillo/2.png" title="Salida parte 2" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/2.png")} alt="img sistema 2" loading="lazy"></img><br />
+                    <img src="/proyectos/compilador_sencillo/3.png" title="Salida parte 3" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/3.png")} alt="img sistema 3" loading="lazy"></img>
                 </div>
             </section>
 

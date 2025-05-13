@@ -220,7 +220,7 @@ function Bases_datos_sql() {
                             </ul>
                         </div>
                     </div>
-                    <img src="/src/assets/proyectos/bases_datos_sql/DER-BD-1.png" title="BD Centrales électricas" className="img-fluid mx-auto d-block mt-4 mb-3 border border-dark" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/bases_datos_sql/DER-BD-1.png")} alt="Img DER-BD-1" loading="lazy"></img>
+                    <img src="/proyectos/bases_datos_sql/DER-BD-1.png" title="BD Centrales électricas" className="img-fluid mx-auto d-block mt-4 mb-3 border border-dark" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/bases_datos_sql/DER-BD-1.png")} alt="Img DER-BD-1" loading="lazy"></img>
                 </div>
             </section>
 
@@ -526,7 +526,7 @@ function Bases_datos_sql() {
                             </ul>
                         </div>
                     </div>
-                    <img src="/src/assets/proyectos/bases_datos_sql/DER-BD-2.png" title="BD Centrales électricas" className="img-fluid mx-auto d-block mt-4 mb-3 border border-dark" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/bases_datos_sql/DER-BD-2.png")} alt="Img DER-BD-1" loading="lazy"></img>
+                    <img src="/proyectos/bases_datos_sql/DER-BD-2.png" title="BD Centrales électricas" className="img-fluid mx-auto d-block mt-4 mb-3 border border-dark" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/bases_datos_sql/DER-BD-2.png")} alt="Img DER-BD-1" loading="lazy"></img>
                 </div>
             </section>
 
@@ -722,7 +722,7 @@ function Bases_datos_sql() {
                             </ul>
                         </div>
                     </div>
-                    <img src="/src/assets/proyectos/bases_datos_sql/DER-BD-3.png" title="BD Centrales électricas" className="img-fluid mx-auto d-block mt-4 mb-3 border border-dark" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/bases_datos_sql/DER-BD-3.png")} alt="Img DER-BD-1" loading="lazy"></img>
+                    <img src="/proyectos/bases_datos_sql/DER-BD-3.png" title="BD Centrales électricas" className="img-fluid mx-auto d-block mt-4 mb-3 border border-dark" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/bases_datos_sql/DER-BD-3.png")} alt="Img DER-BD-1" loading="lazy"></img>
                 </div>
             </section>
         </>

@@ -60,7 +60,7 @@ function Chatbot() {
                         <br></br><br></br>
                         Por lo tanto, la lógica de funcionamiento más simple de este sistema se basa en un grafo y en el recorrido de los vértices de este, donde todas estas opciones de consulta que se ofrecen se encuentran en diferentes vértices del grafo, y cada entrada que haga el usuario pasará por un filtro para identificar alguna de las palabras clave que tienen como objetivo dirigir el recorrido del grafo hacía alguno de los otros vértices con los que tiene relación el vértice de partida. Una vez que se llega al vértice deseado se muestra la información correspondiente de uno o varios de los elementos pertenecientes al conjunto en cuestión. Como resultado de esto, el grafo en el que se sustenta el funcionamiento del chatbot es el siguiente.
                     </p>
-                    <img src="/src/assets/proyectos/chatbot/grafo.jpg" title="Grafo del sistema" className="img-fluid mx-auto d-block mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/grafo.jpg")} alt="Img grafo" loading="lazy"></img>
+                    <img src="/proyectos/chatbot/grafo.jpg" title="Grafo del sistema" className="img-fluid mx-auto d-block mb-4" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/grafo.jpg")} alt="Img grafo" loading="lazy"></img>
                 </div>
             </section>
 
@@ -68,51 +68,51 @@ function Chatbot() {
                 <div className="px-md-5 text-center">
                     <h3 className="pb-4 pt-4" style={{textAlign: "start"}}>Funcionamiento del sistema</h3>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/1.png" title="Descripcion chatbot 1" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/1.png")}  alt="Img chatbot 1" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/1.png" title="Descripcion chatbot 1" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/1.png")}  alt="Img chatbot 1" loading="lazy"></img>
                     </section>  
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/2.png" title="Descripcion chatbot 2" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/2.png")}  alt="Img chatbot 2" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/2.png" title="Descripcion chatbot 2" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/2.png")}  alt="Img chatbot 2" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/3.png" title="Descripcion chatbot 3" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/3.png")}  alt="Img chatbot 3" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/3.png" title="Descripcion chatbot 3" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/3.png")}  alt="Img chatbot 3" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/4.png" title="Descripcion chatbot 4" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/4.png")}  alt="Img chatbot 4" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/4.png" title="Descripcion chatbot 4" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/4.png")}  alt="Img chatbot 4" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/5.png" title="Descripcion chatbot 5" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/5.png")}  alt="Img chatbot 5" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/5.png" title="Descripcion chatbot 5" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/5.png")}  alt="Img chatbot 5" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/6.png" title="Descripcion chatbot 6" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/6.png")} alt="Img chatbot 6" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/6.png" title="Descripcion chatbot 6" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/6.png")} alt="Img chatbot 6" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/7.png" title="Descripcion chatbot 7" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/7.png")} alt="Img chatbot 7" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/7.png" title="Descripcion chatbot 7" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/7.png")} alt="Img chatbot 7" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/8.png" title="Descripcion chatbot 8" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/8.png")} alt="Img chatbot 8" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/8.png" title="Descripcion chatbot 8" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/8.png")} alt="Img chatbot 8" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/9.png" title="Descripcion chatbot 9" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/9.png")} alt="Img chatbot 9" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/9.png" title="Descripcion chatbot 9" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/9.png")} alt="Img chatbot 9" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/10.png" title="Descripcion chatbot 10" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/10.png")} alt="Img chatbot 10" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/10.png" title="Descripcion chatbot 10" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/10.png")} alt="Img chatbot 10" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body">
-                        <img src="/src/assets/proyectos/chatbot/11.png" title="Descripcion chatbot 11" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/11.png")} alt="Img chatbot 11" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/11.png" title="Descripcion chatbot 11" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/11.png")} alt="Img chatbot 11" loading="lazy"></img>
                     </section>
                     <div className="pt2 pb-2"></div>
                     <section className="card card-body mb-3">
-                        <img src="/src/assets/proyectos/chatbot/12.png" title="Descripcion chatbot 12" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/12.png")} alt="Img chatbot 12" loading="lazy"></img>
+                        <img src="/proyectos/chatbot/12.png" title="Descripcion chatbot 12" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/12.png")} alt="Img chatbot 12" loading="lazy"></img>
                     </section>
                 </div>
             </section>
@@ -120,7 +120,7 @@ function Chatbot() {
             <section className="card card-body mt-3">
                 <div className="px-md-5 text-center">
                     <h3 className="pb-4 pt-4" style={{textAlign: "start"}}>Descripción de la interfaz</h3>
-                    <img src="/src/assets/proyectos/chatbot/13.png" title="Descripcion chatbot 13" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/13.png")} alt="Img chatbot 13" loading="lazy"></img>
+                    <img src="/proyectos/chatbot/13.png" title="Descripcion chatbot 13" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/13.png")} alt="Img chatbot 13" loading="lazy"></img>
                 </div>
                 <div className="mt-3 mb-3"></div>
                 <div className="px-md-5">
@@ -130,7 +130,7 @@ function Chatbot() {
                             Botón con una imagen que representa la foto de perfil del chatbot. Sufunción es abrir la siguiente ventana que simula el perfil delchatbot como en otras aplicaciones de mensajería. 
                         </p>
                         <div className="text-center">
-                            <img src="/src/assets/proyectos/chatbot/14.png" title="Perfil chatbot" className="img-fluid" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/14.png")} alt="Img chatbot perfil" loading="lazy"></img>
+                            <img src="/proyectos/chatbot/14.png" title="Perfil chatbot" className="img-fluid" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/14.png")} alt="Img chatbot perfil" loading="lazy"></img>
                         </div>
                         <div>
                             <strong>1.1. Botón Python</strong>
@@ -193,7 +193,7 @@ function Chatbot() {
                             Abre una ventana que contiene información sobre las recomendaciones que ofrece el chatbot y las consultas relacionadas con la hora, día, clima, sinopsis y datos curiosos.
                         </p>
                         <div className="text-center">
-                            <img src="/src/assets/proyectos/chatbot/15.png" title="Ayuda chatbot" className="img-fluid mb-3" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/15.png")} alt="Img chatbot ayuda" loading="lazy"></img>
+                            <img src="/proyectos/chatbot/15.png" title="Ayuda chatbot" className="img-fluid mb-3" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/15.png")} alt="Img chatbot ayuda" loading="lazy"></img>
                         </div>
                     </section>
                     <section className="card card-body mt-2 mb-2 mb-3">
@@ -202,7 +202,7 @@ function Chatbot() {
                             Abre una pequeña pestaña con información relacionada con el nombre del alumno, plantel, nombre del profesor, materia, etcétera.
                         </p>
                         <div className="text-center">
-                            <img src="/src/assets/proyectos/chatbot/16.png" title="Información chatbot" className="img-fluid mb-3" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/16.png")} alt="Img chatbot info" loading="lazy"></img>
+                            <img src="/proyectos/chatbot/16.png" title="Información chatbot" className="img-fluid mb-3" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/16.png")} alt="Img chatbot info" loading="lazy"></img>
                         </div>
                     </section>
                 </div>

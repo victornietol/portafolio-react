@@ -70,10 +70,10 @@ function Gestor_presupuestos() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 col-lg-6">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/29.jpeg" title="Inicio de la aplicación 1" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/29.jpeg")} alt="Img interfaz sistema 29" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/29.jpeg" title="Inicio de la aplicación 1" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/29.jpeg")} alt="Img interfaz sistema 29" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-6">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/30.jpeg" title="Inicio de la aplicación 2" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/30.jpeg")} alt="Img interfaz sistema 30" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/30.jpeg" title="Inicio de la aplicación 2" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/30.jpeg")} alt="Img interfaz sistema 30" loading="lazy"></img>
                             </div>
                         </div>
                     </div>
@@ -83,10 +83,10 @@ function Gestor_presupuestos() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 col-lg-6">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/33.jpeg" title="Agregar categoria 1" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/33.jpeg")} alt="Img interfaz sistema 33" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/33.jpeg" title="Agregar categoria 1" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/33.jpeg")} alt="Img interfaz sistema 33" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-6">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/32.jpeg" title="Agregar categoria 2" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/32.jpeg")} alt="Img interfaz sistema 32" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/32.jpeg" title="Agregar categoria 2" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/32.jpeg")} alt="Img interfaz sistema 32" loading="lazy"></img>
                             </div>
                         </div>
                     </div>
@@ -96,10 +96,10 @@ function Gestor_presupuestos() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 col-lg-6">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/35.jpeg" title="Agregar ingreso 1" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/35.jpeg")} alt="Img interfaz sistema 35" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/35.jpeg" title="Agregar ingreso 1" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/35.jpeg")} alt="Img interfaz sistema 35" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-6">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/36.jpeg" title="Agregar ingreso 2" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/36.jpeg")} alt="Img interfaz sistema 36" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/36.jpeg" title="Agregar ingreso 2" className="img-fluid mx-auto d-block mb-2 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/36.jpeg")} alt="Img interfaz sistema 36" loading="lazy"></img>
                             </div>
                         </div>
                     </div>
@@ -109,10 +109,10 @@ function Gestor_presupuestos() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 col-lg-6">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/37.jpeg" title="Ingresos 1" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/37.jpeg")} alt="Img interfaz sistema 37" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/37.jpeg" title="Ingresos 1" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/37.jpeg")} alt="Img interfaz sistema 37" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-6">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/38.jpeg" title="Ingreso 2" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/38.jpeg")} alt="Img interfaz sistema 38" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/38.jpeg" title="Ingreso 2" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/38.jpeg")} alt="Img interfaz sistema 38" loading="lazy"></img>
                             </div>
                         </div>
                     </div>
@@ -122,22 +122,22 @@ function Gestor_presupuestos() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 col-lg-4">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/39.jpeg" title="Vistas 1" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/39.jpeg")} alt="Img interfaz sistema 39" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/39.jpeg" title="Vistas 1" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/39.jpeg")} alt="Img interfaz sistema 39" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/40.jpeg" title="Vistas 2" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/40.jpeg")} alt="Img interfaz sistema 40" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/40.jpeg" title="Vistas 2" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/40.jpeg")} alt="Img interfaz sistema 40" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/3.jpeg" title="Vistas 3" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/3.jpeg")} alt="Img interfaz sistema 5" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/3.jpeg" title="Vistas 3" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/3.jpeg")} alt="Img interfaz sistema 5" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/41.jpeg" title="Vistas 4" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/41.jpeg")} alt="Img interfaz sistema 41" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/41.jpeg" title="Vistas 4" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/41.jpeg")} alt="Img interfaz sistema 41" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/42.jpeg" title="Vistas 5" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/42.jpeg")} alt="Img interfaz sistema 42" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/42.jpeg" title="Vistas 5" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/42.jpeg")} alt="Img interfaz sistema 42" loading="lazy"></img>
                             </div>
                             <div className="col-md-6 col-lg-4">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/3.jpeg" title="Vistas 6" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/3.jpeg")} alt="Img interfaz sistema 3" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/3.jpeg" title="Vistas 6" className="img-fluid mx-auto d-block mb-2 border mb-2 border-dark w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/3.jpeg")} alt="Img interfaz sistema 3" loading="lazy"></img>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ function Gestor_presupuestos() {
                     <section id="seccion_vista_inicio" className="card card-body bg-light mb-3">
                         <h4> Vista <i>Inicio</i></h4>
                     </section>
-                    <img src="/src/assets/proyectos/gestor_presupuestos/1.png" title="Descripción interfaz 1" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/1.png")} alt="Img interfaz sistema 1" loading="lazy"></img>
+                    <img src="/proyectos/gestor_presupuestos/1.png" title="Descripción interfaz 1" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/1.png")} alt="Img interfaz sistema 1" loading="lazy"></img>
                 </div>
                 <div className="mt-2 mb-3"></div>
                 <div className="px-md-5">
@@ -160,7 +160,7 @@ function Gestor_presupuestos() {
                             Este botón despliega un menú lateral con diferentes opciones de la aplicación para visualizar información.
                         </p>
                         <div className="text-center">
-                            <img src="/src/assets/proyectos/gestor_presupuestos/2.png" title="Descripción interfaz 2" className="img-fluid mx-auto d-block px-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/2.png")} alt="Img interfaz sistema 2" loading="lazy"></img>
+                            <img src="/proyectos/gestor_presupuestos/2.png" title="Descripción interfaz 2" className="img-fluid mx-auto d-block px-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/2.png")} alt="Img interfaz sistema 2" loading="lazy"></img>
                         </div>
                         <div>
                             <strong>1.1. Botón de Inicio</strong>
@@ -176,10 +176,10 @@ function Gestor_presupuestos() {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/3.jpeg" title="Descripción interfaz 3" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/3.jpeg")} alt="Img interfaz sistema 3" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/3.jpeg" title="Descripción interfaz 3" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/3.jpeg")} alt="Img interfaz sistema 3" loading="lazy"></img>
                                     </div>
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/4.jpeg" title="Descripción interfaz 4" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/4.jpeg")} alt="Img interfaz sistema 4" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/4.jpeg" title="Descripción interfaz 4" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/4.jpeg")} alt="Img interfaz sistema 4" loading="lazy"></img>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@ function Gestor_presupuestos() {
                                 Dirige al usuario a una vista donde se puede visualizar un resumen de los ingresos del presupuesto actual. Dicho resumen se muestran tanto por semana actual, mes actual, año actual, así como, seleccionando un rango de días específico.
                             </p>
                             <div className="text-center">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/5.jpeg" title="Descripción interfaz 5" className="img-fluid mx-auto d-block mb-3 border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/5.jpeg")} alt="Img interfaz sistema 5" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/5.jpeg" title="Descripción interfaz 5" className="img-fluid mx-auto d-block mb-3 border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/5.jpeg")} alt="Img interfaz sistema 5" loading="lazy"></img>
                             </div>
                             <p style={{textAlign: "justify"}}>
                                 En caso de seleccionar un rango de fechas, entonces se muestra lo siguiente.
@@ -198,10 +198,10 @@ function Gestor_presupuestos() {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/6.jpeg" title="Descripción interfaz 6" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/6.jpeg")} alt="Img interfaz sistema 6" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/6.jpeg" title="Descripción interfaz 6" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/6.jpeg")} alt="Img interfaz sistema 6" loading="lazy"></img>
                                     </div>
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/7.jpeg" title="Descripción interfaz 7" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/1.jpeg")} alt="Img interfaz sistema 7" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/7.jpeg" title="Descripción interfaz 7" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/7.jpeg")} alt="Img interfaz sistema 7" loading="lazy"></img>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@ function Gestor_presupuestos() {
                                 Dirige al usuario a una vista donde se puede visualizar un resumen de los egresos del presupuesto actual. En resumen, tiene la misma lógica que la vista <i>Resumen Ingresos</i> pero en este caso, con los egresos del usuario.
                             </p>
                             <div className="text-center">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/8.jpeg" title="Descripción interfaz 8" className="img-fluid mx-auto d-block mb-3 border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/8.jpeg")} alt="Img interfaz sistema 8" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/8.jpeg" title="Descripción interfaz 8" className="img-fluid mx-auto d-block mb-3 border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/8.jpeg")} alt="Img interfaz sistema 8" loading="lazy"></img>
                             </div>
                         </div>
                         <div>
@@ -223,16 +223,16 @@ function Gestor_presupuestos() {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/9.jpeg" title="Descripción interfaz 9" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/9.jpeg")}  alt="Img interfaz sistema 9" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/9.jpeg" title="Descripción interfaz 9" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/9.jpeg")}  alt="Img interfaz sistema 9" loading="lazy"></img>
                                     </div>
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/10.jpeg" title="Descripción interfaz 10" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/10.jpeg")}  alt="Img interfaz sistema 10" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/10.jpeg" title="Descripción interfaz 10" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/10.jpeg")}  alt="Img interfaz sistema 10" loading="lazy"></img>
                                     </div>
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/11.jpeg" title="Descripción interfaz 11" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/11.jpeg")}  alt="Img interfaz sistema 11" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/11.jpeg" title="Descripción interfaz 11" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/11.jpeg")}  alt="Img interfaz sistema 11" loading="lazy"></img>
                                     </div>
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/12.jpeg" title="Descripción interfaz 12" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/12.jpeg")}  alt="Img interfaz sistema 12" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/12.jpeg" title="Descripción interfaz 12" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/12.jpeg")}  alt="Img interfaz sistema 12" loading="lazy"></img>
                                     </div>
                                 </div>
                             </div>
@@ -245,10 +245,10 @@ function Gestor_presupuestos() {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/13.jpeg" title="Descripción interfaz 13" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/13.jpeg")}  alt="Img interfaz sistema 13" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/13.jpeg" title="Descripción interfaz 13" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/proyectos/gestor_presupuestos/13.jpeg")}  alt="Img interfaz sistema 13" loading="lazy"></img>
                                     </div>
                                     <div className="col-md-6 col-lg-6">
-                                        <img src="/src/assets/proyectos/gestor_presupuestos/14.jpeg" title="Descripción interfaz 14" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/14.jpeg")}  alt="Img interfaz sistema 14" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/14.jpeg" title="Descripción interfaz 14" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/proyectos/gestor_presupuestos/14.jpeg")}  alt="Img interfaz sistema 14" loading="lazy"></img>
                                     </div>
                                 </div>
                             </div>
@@ -259,7 +259,7 @@ function Gestor_presupuestos() {
                                 Este botón abre un cuadro de dialogo con un resumen con información sobre la aplicación.
                             </p>
                             <div className="text-center">
-                                <img src="/src/assets/proyectos/gestor_presupuestos/15.jpeg" title="Descripción interfaz 15" className="img-fluid mx-auto d-block mb-3 w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/15.jpeg")} alt="Img interfaz sistema 15" loading="lazy"></img>
+                                <img src="/proyectos/gestor_presupuestos/15.jpeg" title="Descripción interfaz 15" className="img-fluid mx-auto d-block mb-3 w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/proyectos/gestor_presupuestos/15.jpeg")} alt="Img interfaz sistema 15" loading="lazy"></img>
                             </div>
                         </div>
                     </section>
@@ -269,7 +269,7 @@ function Gestor_presupuestos() {
                             En esta sección se muestra el balace general entre ingresos y egresos. Además, si se presiona dicha sección, entonces, se muestra una gráfica con las cantidades totales de ingresos y egresos.
                         </p>
                         <div className="text-center">
-                            <img src="/src/assets/proyectos/gestor_presupuestos/16.jpeg" title="Balance general" className="img-fluid mx-auto d-block border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/16.jpeg")} alt="Balance general" loading="lazy"></img>
+                            <img src="/proyectos/gestor_presupuestos/16.jpeg" title="Balance general" className="img-fluid mx-auto d-block border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/proyectos/gestor_presupuestos/16.jpeg")} alt="Balance general" loading="lazy"></img>
                         </div>
                     </section>
                     <section className="card card-body mt-2 mb-2">
@@ -278,7 +278,7 @@ function Gestor_presupuestos() {
                             Este botón permite al usuario crear un nuevo presupuesto.
                         </p>
                         <div className="text-center">
-                            <img src="/src/assets/proyectos/gestor_presupuestos/17.jpeg" title="Nuevo presupuesto" className="img-fluid mx-auto d-block border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/17.jpeg")} alt="Nuevo presupuesto" loading="lazy"></img>
+                            <img src="/proyectos/gestor_presupuestos/17.jpeg" title="Nuevo presupuesto" className="img-fluid mx-auto d-block border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/proyectos/gestor_presupuestos/17.jpeg")} alt="Nuevo presupuesto" loading="lazy"></img>
                         </div>
                     </section>
                     <section className="card card-body mt-2 mb-2">
@@ -289,10 +289,10 @@ function Gestor_presupuestos() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-6 col-lg-6">
-                                    <img src="/src/assets/proyectos/gestor_presupuestos/18.jpeg" title="Nuevo ingreso 1" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/18.jpeg")} alt="Img interfaz sistema 18" loading="lazy"></img>
+                                    <img src="/proyectos/gestor_presupuestos/18.jpeg" title="Nuevo ingreso 1" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/proyectos/gestor_presupuestos/18.jpeg")} alt="Img interfaz sistema 18" loading="lazy"></img>
                                 </div>
                                 <div className="col-md-6 col-lg-6">
-                                    <img src="/src/assets/proyectos/gestor_presupuestos/21.jpeg" title="Nuevo ingreso 2" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/21.jpeg")} alt="Img interfaz sistema 18" loading="lazy"></img>
+                                    <img src="/proyectos/gestor_presupuestos/21.jpeg" title="Nuevo ingreso 2" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}}  onClick={() => handleImageClick("/proyectos/gestor_presupuestos/21.jpeg")} alt="Img interfaz sistema 18" loading="lazy"></img>
                                 </div>
                             </div>
                         </div>
@@ -305,10 +305,10 @@ function Gestor_presupuestos() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-6 col-lg-6">
-                                    <img src="/src/assets/proyectos/gestor_presupuestos/19.jpeg" title="Nuevo egreso 1" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/19.jpeg")} alt="Img interfaz sistema 19" loading="lazy"></img>
+                                    <img src="/proyectos/gestor_presupuestos/19.jpeg" title="Nuevo egreso 1" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/19.jpeg")} alt="Img interfaz sistema 19" loading="lazy"></img>
                                 </div>
                                 <div className="col-md-6 col-lg-6">
-                                    <img src="/src/assets/proyectos/gestor_presupuestos/20.jpeg" title="Nuevo egreso 2" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/20.jpeg")} alt="Img interfaz sistema 20" loading="lazy"></img>
+                                    <img src="/proyectos/gestor_presupuestos/20.jpeg" title="Nuevo egreso 2" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/20.jpeg")} alt="Img interfaz sistema 20" loading="lazy"></img>
                                 </div>
                             </div>
                         </div>
@@ -360,13 +360,13 @@ function Gestor_presupuestos() {
                     <section id="seccion_vista_ingresos" className="card card-body bg-light mb-3">
                         <h4 style={{textAlign: "center"}}> Vista <i>Ingresos</i></h4>
                     </section>
-                    <img src="/src/assets/proyectos/gestor_presupuestos/21.png" title="Descripción vista ingresos" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/21.png")} alt="Img interfaz sistema 21" loading="lazy"></img>
+                    <img src="/proyectos/gestor_presupuestos/21.png" title="Descripción vista ingresos" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/21.png")} alt="Img interfaz sistema 21" loading="lazy"></img>
                     <section className="card card-body mt-3 mb-2">
                         <strong>1. Total de ingresos</strong>
                         <p style={{textAlign: "justify"}}>
                             Muestra el total de ingresos de todas las categorías en general del presupuesto actual. Si se presiona se muestra una gráfica de barras con el total de cada categoría. La gráfica tiene un comportamiento de deslizamiento hacia la derecha en caso de haber varias categorías.
                         </p>
-                        <img src="/src/assets/proyectos/gestor_presupuestos/22.jpeg" title="Gráfica total ingresos" className="img-fluid mx-auto d-block border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/22.jpeg")} alt="Img interfaz sistema 22" loading="lazy"></img>
+                        <img src="/proyectos/gestor_presupuestos/22.jpeg" title="Gráfica total ingresos" className="img-fluid mx-auto d-block border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/22.jpeg")} alt="Img interfaz sistema 22" loading="lazy"></img>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>2. Pestañas de categorias</strong>
@@ -378,10 +378,10 @@ function Gestor_presupuestos() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-6 col-lg-6">
-                                    <img src="/src/assets/proyectos/gestor_presupuestos/23.jpeg" title="Pestaña ingresos 1" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/23.jpeg")} alt="Img interfaz sistema 23" loading="lazy"></img>
+                                    <img src="/proyectos/gestor_presupuestos/23.jpeg" title="Pestaña ingresos 1" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/23.jpeg")} alt="Img interfaz sistema 23" loading="lazy"></img>
                                 </div>
                                 <div className="col-md-6 col-lg-6">
-                                    <img src="/src/assets/proyectos/gestor_presupuestos/24.jpeg" title="Pestaña ingresos 2" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/24.jpeg")} alt="Img interfaz sistema 24" loading="lazy"></img>
+                                    <img src="/proyectos/gestor_presupuestos/24.jpeg" title="Pestaña ingresos 2" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/24.jpeg")} alt="Img interfaz sistema 24" loading="lazy"></img>
                                 </div>
                             </div>
                         </div>
@@ -409,13 +409,13 @@ function Gestor_presupuestos() {
                     <section id="seccion_vista_egresos" className="card card-body bg-light mb-3">
                         <h4 style={{textAlign: "center"}}> Vista <i>Egresos</i></h4>
                     </section>
-                    <img src="/src/assets/proyectos/gestor_presupuestos/25.png" title="Descripción vista egresos" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/25.png")} alt="Img interfaz sistema 25" loading="lazy"></img>
+                    <img src="/proyectos/gestor_presupuestos/25.png" title="Descripción vista egresos" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/25.png")} alt="Img interfaz sistema 25" loading="lazy"></img>
                     <section className="card card-body mt-3 mb-2">
                         <strong>1. Total de egresos</strong>
                         <p style={{textAlign: "justify"}}>
                             Muestra el total de egresos de todas las categorías en general del presupuesto actual. Si se presiona se muestra una gráfica de barras con el total de cada categoría. La gráfica tiene un comportamiento de deslizamiento hacia la derecha en caso de haber varias categorías.
                         </p>
-                        <img src="/src/assets/proyectos/gestor_presupuestos/26.jpeg" title="Gráfica total egresos" className="img-fluid mx-auto d-block border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/26.jpeg")} alt="Img interfaz sistema 26" loading="lazy"></img>
+                        <img src="/proyectos/gestor_presupuestos/26.jpeg" title="Gráfica total egresos" className="img-fluid mx-auto d-block border border-dark w-25" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/26.jpeg")} alt="Img interfaz sistema 26" loading="lazy"></img>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>2. Pestañas de categorias</strong>
@@ -427,10 +427,10 @@ function Gestor_presupuestos() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-6 col-lg-6">
-                                    <img src="/src/assets/proyectos/gestor_presupuestos/27.jpeg" title="Pestaña egresos 1" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/27.jpeg")} alt="Img interfaz sistema 27" loading="lazy"></img>
+                                    <img src="/proyectos/gestor_presupuestos/27.jpeg" title="Pestaña egresos 1" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/27.jpeg")} alt="Img interfaz sistema 27" loading="lazy"></img>
                                 </div>
                                 <div className="col-md-6 col-lg-6">
-                                    <img src="/src/assets/proyectos/gestor_presupuestos/28.jpeg" title="Pestaña egresos 2" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/gestor_presupuestos/28.jpeg")} alt="Img interfaz sistema 28" loading="lazy"></img>
+                                    <img src="/proyectos/gestor_presupuestos/28.jpeg" title="Pestaña egresos 2" className="img-fluid mx-auto d-block mx-5 mt-3 mb-3 border border-dark w-50" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/28.jpeg")} alt="Img interfaz sistema 28" loading="lazy"></img>
                                 </div>
                             </div>
                         </div>

@@ -67,21 +67,21 @@ function Prob_partidos() {
                     <p style={{textAlign: "justify"}}>
                             Al ejecutar el programa, se abre la siguiente ventana con datos predeterminados (estos datos se pueden borran con el botón "Limpiar campos"). Para realizar una simulación se deben llenar los campos y presionar el botón "Iniciar".
                     </p>
-                    <img src="/src/assets/proyectos/prob_partidos/1.png" title="Interfaz del sistema" className="img-fluid mx-auto d-block border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/prob_partidos/1.png")} alt="Img sistema" loading="lazy"></img>
+                    <img src="/proyectos/prob_partidos/1.png" title="Interfaz del sistema" className="img-fluid mx-auto d-block border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/prob_partidos/1.png")} alt="Img sistema" loading="lazy"></img>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <p style={{textAlign: "justify"}}>
                             En caso de que el usuario introduzca un valor erróneo o haya un campo vacío, entonces se muestra un mensaje de error como en la siguiente captura. 
                         </p>
-                        <img src="/src/assets/proyectos/prob_partidos/2.png" title="Error en un campo" className="img-fluid mx-auto d-block border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/prob_partidos/2.png")} alt="Img error sistema" loading="lazy"></img>
+                        <img src="/proyectos/prob_partidos/2.png" title="Error en un campo" className="img-fluid mx-auto d-block border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/prob_partidos/2.png")} alt="Img error sistema" loading="lazy"></img>
                     </section>
                     <section className="card card-body mt-2 mb-2 pb-2">
                         <p style={{textAlign: "justify"}}>
                             Una vez presionado el botón "Iniciar", se muestran los resultados de la simulación en la parte derecha de la ventana, donde se puede cambiar la visualización entre tres gráficas distintas.
                         </p>
-                        <img src="/src/assets/proyectos/prob_partidos/3.png" title="Resultados 1" className="img-fluid mx-auto d-block border border-dark rounded mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/prob_partidos/3.png")} alt="Img resultados sistema" loading="lazy"></img>
-                        <img src="/src/assets/proyectos/prob_partidos/4.png" title="Resultados 2" className="img-fluid mx-auto d-block border border-dark rounded mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/prob_partidos/4.png")} alt="Img resultados sistema" loading="lazy"></img>
-                        <img src="/src/assets/proyectos/prob_partidos/5.png" title="Resultados 3" className="img-fluid mx-auto d-block border border-dark rounded mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/prob_partidos/5.png")} alt="Img resultados sistema" loading="lazy"></img>
+                        <img src="/proyectos/prob_partidos/3.png" title="Resultados 1" className="img-fluid mx-auto d-block border border-dark rounded mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/prob_partidos/3.png")} alt="Img resultados sistema" loading="lazy"></img>
+                        <img src="/proyectos/prob_partidos/4.png" title="Resultados 2" className="img-fluid mx-auto d-block border border-dark rounded mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/prob_partidos/4.png")} alt="Img resultados sistema" loading="lazy"></img>
+                        <img src="/proyectos/prob_partidos/5.png" title="Resultados 3" className="img-fluid mx-auto d-block border border-dark rounded mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/prob_partidos/5.png")} alt="Img resultados sistema" loading="lazy"></img>
                     </section>
                 </div>
             </section>
@@ -89,7 +89,7 @@ function Prob_partidos() {
             <section className="card card-body mt-3">
                 <div className="px-md-5 text-center">
                     <h3 className="pb-4 pt-4" style={{textAlign: "start"}}>Descripción de la interfaz</h3>
-                    <img src="/src/assets/proyectos/prob_partidos/6.png" title="Descripcion interfaz" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/prob_partidos/6.png")} alt="Img interfaz sistema" loading="lazy"></img>
+                    <img src="/proyectos/prob_partidos/6.png" title="Descripcion interfaz" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/prob_partidos/6.png")} alt="Img interfaz sistema" loading="lazy"></img>
                 </div>
                 <div className="mt-2 mb-3"></div>
                 <div className="px-md-5">

@@ -163,10 +163,10 @@ function AlgoritmoGenetico_AFD() {
                         Pasando cada individuo de su forma decimal a su representación en dígito final planteada para este problema.
                     </p>
                     <div className="card card-body mt-4 mb-4">
-                        <pre><code className="language-python">`{`def bitsADigito(self,d):  
+                        <pre><code className="language-python">{`def bitsADigito(self,d):  
     n = self.binarioADecimal(d) 
     digito = n+1
-    return digito`}`
+    return digito`}
                         </code></pre>
                     </div>
                     <p style={{textAlign: "justify"}}>

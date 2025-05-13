@@ -44,7 +44,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">OpenWeatherMap</span> 
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/chatbot/prev.png" title="Chatbot" className="img-fluid mx-3  btn-hover-efecto" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{width: "150px", cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/chatbot/prev.png")} alt="Prev chatbot" loading="lazy"></img>
+                                        <img src="/proyectos/chatbot/prev.png" title="Chatbot" className="img-fluid mx-3  btn-hover-efecto" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{width: "150px", cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/chatbot/prev.png")} alt="Prev chatbot" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -71,7 +71,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">SQLite</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="src/assets/proyectos/gestor_presupuestos/prev.jpeg" title="Gestor presupuestos" className="img-fluid btn-hover-efecto mt-2 w-25 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("src/assets/proyectos/gestor_presupuestos/prev.jpeg")} alt="Prev gestor" loading="lazy"></img>
+                                        <img src="/proyectos/gestor_presupuestos/prev.jpeg" title="Gestor presupuestos" className="img-fluid btn-hover-efecto mt-2 w-25 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/gestor_presupuestos/prev.jpeg")} alt="Prev gestor" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -98,7 +98,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">Cloud Firestore</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/guia_videojuego/prev.jpeg" title="Gestor presupuestos" className="img-fluid btn-hover-efecto mt-2 w-25 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/guia_videojuego/prev.jpeg")} alt="Prev gestor" loading="lazy"></img>
+                                        <img src="/proyectos/guia_videojuego/prev.jpeg" title="Gestor presupuestos" className="img-fluid btn-hover-efecto mt-2 w-25 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/guia_videojuego/prev.jpeg")} alt="Prev gestor" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -125,7 +125,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">Numpy</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/prob_partidos/prev.png" title="Probabilidades partidos" className="img-fluid btn-hover-efecto rounded border border-dark mt-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/prob_partidos/prev.png")} alt="Prev probabilidades partidos" loading="lazy"></img>
+                                        <img src="/proyectos/prob_partidos/prev.png" title="Probabilidades partidos" className="img-fluid btn-hover-efecto rounded border border-dark mt-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/prob_partidos/prev.png")} alt="Prev probabilidades partidos" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -148,7 +148,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">MySQL</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/bases_datos_sql/DER-BD-1.png" title="Recomendador bebidas" className="img-fluid btn-hover-efecto mt-2 w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/bases_datos_sql/DER-BD-1.png")} alt="Prev recomendador bebidas" loading="lazy"></img>
+                                        <img src="/proyectos/bases_datos_sql/DER-BD-1.png" title="Recomendador bebidas" className="img-fluid btn-hover-efecto mt-2 w-75" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/bases_datos_sql/DER-BD-1.png")} alt="Prev recomendador bebidas" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -172,7 +172,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">Pandas</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/recomendador_beb/prev.png" title="Recomendador bebidas" className="img-fluid btn-hover-efecto mt-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/recomendador_beb/prev.png")} alt="Prev recomendador bebidas" loading="lazy"></img>
+                                        <img src="/proyectos/recomendador_beb/prev.png" title="Recomendador bebidas" className="img-fluid btn-hover-efecto mt-2" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/recomendador_beb/prev.png")} alt="Prev recomendador bebidas" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -197,7 +197,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">ply.yacc</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/compilador_sencillo/prev.png" title="Compilador sencillo" className="img-fluid btn-hover-efecto mt-2 w-75 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/compilador_sencillo/prev.png")} alt="Prev recomendador bebidas" loading="lazy"></img>
+                                        <img src="/proyectos/compilador_sencillo/prev.png" title="Compilador sencillo" className="img-fluid btn-hover-efecto mt-2 w-75 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/prev.png")} alt="Prev recomendador bebidas" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -220,7 +220,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">Numpy</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/algoritmoGenetico_AFND/prev.png" title="AFND a AFD" className="img-fluid btn-hover-efecto mt-2 w-75 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/algoritmoGenetico_AFND/prev.png")} alt="prev" loading="lazy"></img>
+                                        <img src="/proyectos/algoritmoGenetico_AFND/prev.png" title="AFND a AFD" className="img-fluid btn-hover-efecto mt-2 w-75 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/algoritmoGenetico_AFND/prev.png")} alt="prev" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -246,7 +246,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">bcrypt</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/practica_cifrado/prev.png" title="Página cifrado" className="img-fluid btn-hover-efecto mt-2 w-75 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/practica_cifrado/prev.png")} alt="prev cifrado" loading="lazy"></img>
+                                        <img src="/proyectos/practica_cifrado/prev.png" title="Página cifrado" className="img-fluid btn-hover-efecto mt-2 w-75 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/practica_cifrado/prev.png")} alt="prev cifrado" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">
@@ -270,7 +270,7 @@ function Proyectos() {
                                         <span className="badge bg-warning text-dark">Android</span>
                                     </p>
                                     <div className="text-center">
-                                        <img src="/src/assets/proyectos/videojuegos/prev.png" title="Compilador Videojuegos" className="img-fluid btn-hover-efecto mt-2 w-75 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/videojuegos/prev.png")} alt="prev videojuegos" loading="lazy"></img>
+                                        <img src="/proyectos/videojuegos/prev.png" title="Compilador Videojuegos" className="img-fluid btn-hover-efecto mt-2 w-75 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/videojuegos/prev.png")} alt="prev videojuegos" loading="lazy"></img>
                                     </div>
                                 </div>
                                 <div className="text-center">

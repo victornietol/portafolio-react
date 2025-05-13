@@ -89,19 +89,19 @@ function Practica_cifrado() {
                     <h3 className="pb-3 pt-3" style={{textAlign: "start"}}>Imágenes</h3>
                     <div>
                         <h4>Inicio de sesión</h4>
-                        <img src="/src/assets/proyectos/practica_cifrado/4.png" title="Pantalla de inicio de sesión" className="img-fluid mx-auto d-block rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/practica_cifrado/4.png")} alt="Img sistema 4" loading="lazy"></img>
+                        <img src="/proyectos/practica_cifrado/4.png" title="Pantalla de inicio de sesión" className="img-fluid mx-auto d-block rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/practica_cifrado/4.png")} alt="Img sistema 4" loading="lazy"></img>
                     </div>
                     <div className="mt-4">
                         <h4>Registro de usuario</h4>
-                        <img src="/src/assets/proyectos/practica_cifrado/3.png" title="Pantalla de registro" className="img-fluid mx-auto d-block rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/practica_cifrado/3.png")} alt="Img sistema 3" loading="lazy"></img>
+                        <img src="/proyectos/practica_cifrado/3.png" title="Pantalla de registro" className="img-fluid mx-auto d-block rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/practica_cifrado/3.png")} alt="Img sistema 3" loading="lazy"></img>
                     </div>
                     <div className="mt-4">
                         <h4>Cifrado de texto</h4>
-                        <img src="/src/assets/proyectos/practica_cifrado/1.png" title="Cifrado de texto" className="img-fluid mx-auto d-block rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/practica_cifrado/1.png")} alt="Img sistema 1" loading="lazy"></img>
+                        <img src="/proyectos/practica_cifrado/1.png" title="Cifrado de texto" className="img-fluid mx-auto d-block rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/practica_cifrado/1.png")} alt="Img sistema 1" loading="lazy"></img>
                     </div>
                     <div className="mt-4 mb-3">
                         <h4>Texto cifrado</h4>
-                        <img src="/src/assets/proyectos/practica_cifrado/2.png" title="Descifrado de texto" className="img-fluid mx-auto d-block rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/src/assets/proyectos/practica_cifrado/2.png")} alt="Img sistema 2" loading="lazy"></img>
+                        <img src="/proyectos/practica_cifrado/2.png" title="Descifrado de texto" className="img-fluid mx-auto d-block rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/practica_cifrado/2.png")} alt="Img sistema 2" loading="lazy"></img>
                     </div>
                 </div>
             </section>
