@@ -15,12 +15,14 @@ function Chatbot() {
                 <title>Chatbot | Portafolio</title>
             </Helmet>
             <div className="mt-5 mb-4">
-                <h1 className="display-4 text-center">Chatbot</h1>
+                <h1 className="display-4 text-center">
+                    <span className="letra-hover-efecto">C</span><span className="letra-hover-efecto">h</span><span className="letra-hover-efecto">a</span><span className="letra-hover-efecto">t</span><span className="letra-hover-efecto">b</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">t</span>
+                </h1>
             </div>
 
             <div className="container">
                 <div className="row">
-                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light">
+                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light efecto-card-glow">
                         <div className="px-md-5 text-center">
                             <h3>Tecnologías empleadas</h3>
                             <p>
@@ -31,7 +33,7 @@ function Chatbot() {
                         </div>
                     </section>
                     
-                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light">
+                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light efecto-card-glow">
                         <div className="px-md-5 text-center">
                             <h3>Repositorio</h3>
                             <p>
@@ -46,10 +48,10 @@ function Chatbot() {
                 </div>
             </div>
             
-            <section className="card card-body mt-2">
-                <div className="px-md-5 text-center">
-                    <h3 className="pb-3 pt-3" style={{textAlign: "start"}}>Descripción del sistema</h3>
-                    <p style={{textAlign: "justify"}}>
+            <section className="card card-body mt-2 card-borde">
+                <div className="px-md-5">
+                    <h3 className="pb-3 pt-3 texto-subt-efecto" style={{textAlign: "start"}}>Descripción del sistema</h3>
+                    <p>
                         Como proyecto académico de matematicas discretas, correspondiente al tema de grafos, se construyó en Python un chatbot sencillo basado en esta estructura e implementado con diccionarios. Su funcionamiento es muy básico, si el sistema detecta en la entrada alguna palabra clave (tema dentro de su base de conocimiento), entonces muestra recomendaciones de contenido multimedia en plataformas como Netflix, HBO Max, Disney+, Youtube y Spotify. Estas recomendaciones serán películas, series, documentales, canciones o canales dependiendo de la plataforma que se le indique al chatbot.
                         <br></br><br></br>
                         Además, se utilizó el paquete tkinter para crear una sencilla interfaz gráfica que ayuda a que el usuario tenga una experiencia muy parecida a la de las aplicaciones de mensajería convencionales. Por otro lado, el código del programa tiene muchos aspectos de mejora debido a que este fue mi primer proyecto de este estilo con Python. 
@@ -64,9 +66,9 @@ function Chatbot() {
                 </div>
             </section>
 
-            <section className="card card-body mt-3">
+            <section className="card card-body mt-3 card-borde">
                 <div className="px-md-5 text-center">
-                    <h3 className="pb-4 pt-4" style={{textAlign: "start"}}>Funcionamiento del sistema</h3>
+                    <h3 className="pb-4 pt-4 texto-subt-efecto" style={{textAlign: "start"}}>Funcionamiento del sistema</h3>
                     <section className="card card-body">
                         <img src="/proyectos/chatbot/1.png" title="Descripcion chatbot 1" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/1.png")}  alt="Img chatbot 1" loading="lazy"></img>
                     </section>  
@@ -117,16 +119,16 @@ function Chatbot() {
                 </div>
             </section>
 
-            <section className="card card-body mt-3">
+            <section className="card card-body mt-3 card-borde">
                 <div className="px-md-5 text-center">
-                    <h3 className="pb-4 pt-4" style={{textAlign: "start"}}>Descripción de la interfaz</h3>
+                    <h3 className="pb-4 pt-4 texto-subt-efecto" style={{textAlign: "start"}}>Descripción de la interfaz</h3>
                     <img src="/proyectos/chatbot/13.png" title="Descripcion chatbot 13" className="img-fluid mx-auto d-block" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "pointer"}} onClick={() => handleImageClick("/proyectos/chatbot/13.png")} alt="Img chatbot 13" loading="lazy"></img>
                 </div>
                 <div className="mt-3 mb-3"></div>
                 <div className="px-md-5">
                     <section className="card card-body">
                         <strong>1. Botón para abrir perfil</strong>
-                        <p style={{textAlign: "justify"}}>
+                        <p >
                             Botón con una imagen que representa la foto de perfil del chatbot. Sufunción es abrir la siguiente ventana que simula el perfil delchatbot como en otras aplicaciones de mensajería. 
                         </p>
                         <div className="text-center">
@@ -134,62 +136,62 @@ function Chatbot() {
                         </div>
                         <div>
                             <strong>1.1. Botón Python</strong>
-                            <p style={{textAlign: "justify"}}>
+                            <p >
                                 Indica el lenguaje de programación utilizado para la creación este chatbot y abre un enlace en el navegador predeterminado que dirige al usuario a una página de <a href="https://www.python.org/ ">Python</a>.
                             </p>
                         </div>
                         <div>
                             <strong>1.2. Botón de código 2</strong>
-                            <p style={{textAlign: "justify"}}>
+                            <p >
                                 Abre un enlace en el navegador predeterminado y dirige al usuario a una página que contiene el <a href="https://github.com/victornietol/Proyectos/blob/main/Proyecto_Mate_Disc/Actualizacion_30_05_2022/ProyectoMates_Disc/chatbot_pruebas2.py">código del programa</a>.
                             </p>
                         </div>
                         <div>
                             <strong>1.3. Botón UNAM</strong>
-                            <p style={{textAlign: "justify"}}>
+                            <p >
                                 Abre un enlace en el navegador predeterminado y dirige al usuario a una página de la <a href="https://www.unam.mx/">Universidad Nacional Autónoma de México</a>.
                             </p>
                         </div>
                         <div>
                             <strong>1.4. Botón FES Aragoón</strong>
-                            <p style={{textAlign: "justify"}}>
+                            <p >
                                 Abre un enlace en el navegador predeterminado y dirige al usuario a la página de la <a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">Facultad de Estudios Superiores Aragón</a>.
                             </p>
                         </div>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>2. Mensaje del chatbot</strong>
-                        <p style={{textAlign: "justify"}}>
+                        <p >
                             Mensaje inicial del chatbot con el que se incita al usuario a iniciar la conversación. Siempre es el mismo mensaje.
                         </p>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>3. Entrada de texto</strong>
-                        <p style={{textAlign: "justify"}}>
+                        <p >
                             En esta casilla se introduce la consulta que se le quiere hacer al chatbot, la cadena que se introduzca puede llevar mayúsculas, minúsculas, acentos, diéresis, etcétera, y no está restringida a solo contener la palabra clave. Sin embargo, si es indispensable que la cadena contenga alguna palabra clave para que el chatbot pueda responder correctamente, de lo contrario no entenderá el mensaje. Además, una vez escrito el mensaje se puede presionar la tecla enter en el teclado y hará la misma función que el botón de enviar.
                         </p>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>4. Botón de enviar</strong>
-                        <p style={{textAlign: "justify"}}>
+                        <p >
                             Envía la cadena introducida por el usuario en la casilla de entrada de texto para ser procesada por el chatbot y regresar un mensaje de respuesta. Si se envía un mensaje en blanco el chatbot responderá que no entiende la consulta.
                         </p>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>5. Caja de texto</strong>
-                        <p style={{textAlign: "justify"}}>
+                        <p >
                             En esta caja de texto se mostrará el historial de conversación entre el usuario y el chatbot. Cuenta con una barra de desplazamiento para moverse a lo largo de la conversación. 
                         </p>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>6. Botón de código 1.</strong>
-                        <p style={{textAlign: "justify"}}>
+                        <p >
                             Tiene la misma función que el botón de código 2 mencionado anteriormente y abre el mismo enlace donde se encuentra el código del programa.
                         </p>
                     </section>
                     <section className="card card-body mt-2 mb-2">
                         <strong>7. Botón de ayuda.</strong>
-                        <p style={{textAlign: "justify"}}>
+                        <p >
                             Abre una ventana que contiene información sobre las recomendaciones que ofrece el chatbot y las consultas relacionadas con la hora, día, clima, sinopsis y datos curiosos.
                         </p>
                         <div className="text-center">
@@ -198,7 +200,7 @@ function Chatbot() {
                     </section>
                     <section className="card card-body mt-2 mb-2 mb-3">
                         <strong>8. Botón de información.</strong>
-                        <p style={{textAlign: "justify"}}>
+                        <p >
                             Abre una pequeña pestaña con información relacionada con el nombre del alumno, plantel, nombre del profesor, materia, etcétera.
                         </p>
                         <div className="text-center">

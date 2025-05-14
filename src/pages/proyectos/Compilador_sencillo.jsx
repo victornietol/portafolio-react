@@ -22,12 +22,25 @@ function Compilador_sencillo() {
             </Helmet>
 
             <div className="mt-5 mb-4">
-                <h1 className="display-4 text-center">Compilador sencillo con Python</h1>
+                <h1 className="display-4 text-center">
+                    <span className='palabra'>
+                        <span className="letra-hover-efecto">C</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">m</span><span className="letra-hover-efecto">p</span><span className="letra-hover-efecto">i</span><span className="letra-hover-efecto">l</span><span className="letra-hover-efecto">a</span><span className="letra-hover-efecto">d</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">r</span>{" "}
+                    </span>
+                    <span className='palabra'>
+                        <span className="letra-hover-efecto">s</span><span className="letra-hover-efecto">e</span><span className="letra-hover-efecto">n</span><span className="letra-hover-efecto">c</span><span className="letra-hover-efecto">i</span><span className="letra-hover-efecto">l</span><span className="letra-hover-efecto">l</span><span className="letra-hover-efecto">o</span>{" "}
+                    </span>
+                    <span>
+                        <span className="letra-hover-efecto">e</span><span className="letra-hover-efecto">n</span>{" "}
+                    </span>
+                    <span className="palabra">
+                        <span className="letra-hover-efecto">P</span><span className="letra-hover-efecto">y</span><span className="letra-hover-efecto">t</span><span className="letra-hover-efecto">h</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">n</span>
+                    </span>
+                </h1>
             </div>
 
             <div className="container">
                 <div className="row">
-                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light">
+                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light efecto-card-glow">
                         <div className="px-md-5 text-center">
                             <h3>Tecnologías empleadas</h3>
                             <p>
@@ -38,7 +51,7 @@ function Compilador_sencillo() {
                         </div>
                     </section>
                     
-                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light">
+                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light efecto-card-glow">
                         <div className="px-md-5 text-center">
                             <h3>Repositorio</h3>
                             <p>
@@ -53,34 +66,34 @@ function Compilador_sencillo() {
                 </div>
             </div>
             
-            <section className="card card-body mt-2">
-                <div className="px-md-5 text-center">
-                    <h3 className="pb-3 pt-3" style={{textAlign: "start"}}>Descripción del sistema</h3>
-                    <p style={{textAlign: "justify"}}>
+            <section className="card card-body mt-2 card-borde">
+                <div className="px-md-5">
+                    <h3 className="pb-3 pt-3 texto-subt-efecto" style={{textAlign: "start"}}>Descripción del sistema</h3>
+                    <p>
                         Este proyecto académico se realizó con el objetivo de conocer el proceso de construcción de un compilador a través de dos elementos tradicionales como lo son el Analizador Léxico y Sintáctico, además de su implementación con herramientas disponibles que proporciona Python.
                     </p>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Dicho sistema, correspondiente a un pequeño ejemplo básico de compilador, acepta instrucciones para hacer operaciones aritméticas, mezclar colores primarios (rojo, amarillo, azul) y hacer conversiones entre grados Celsius, Fahrenheit y Kelvin.
                     </p>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Para ingresar una operación aritmética se debe hacer de la forma "<code className="bg-light">Operacion[&lt;OPERACION A REALIZAR&gt;];</code>" , como en el siguiente ejemplo:
                             <br></br>
                             <br></br>
                             <code className="bg-light">Operacion[(14+4)*3];</code>
                     </p>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Para ingresar una mezcla de colores se debe hacer de la forma "<code className="bg-light">Mezcla[&lt;COLOR PRIMARIO&gt;+&lt;COLOR PRIMARIO&gt;];</code>" , como en el siguiente ejemplo:
                             <br></br>
                             <br></br>
                             <code className="bg-light">Mezcla[amarillo+azul];</code>
                     </p>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Para ingresar una conversión entre grados se debe hacer de la forma "<code className="bg-light">Conversion[&lt;ESCALA ORIGINAL&gt; (&lt;VALOR NUMERICO EN DECIMAL O ENTERO&gt;) a &lt;ESCALA OBJETIVO&gt;];</code>" , como en el siguiente ejemplo:
                             <br></br>
                             <br></br>
                             <code className="bg-light">Conversion[celsius (20) a fahrenheit];</code>
                     </p>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Para poder ingresar las entradas al compilador, estas se deben escribir en el archivo "entrada.txt" que se encuentra dentro del archivo del programa, este archivo se puede abrir dando click en el boton "Modificar" o abriéndolo manualmente. Cada instrucción debe estar separada por un salto de linea como en los ejemplos que ya trae predefinidos dicho archivo. Una vez teniendo las instrucciones deseadas en el archivo de texto, solo hay que dar click al boton "Iniciar" en la interfaz del programa y el resultado se mostrará en la caja de texto que se encuentra arriba de dicho boton. Cabe mencionar que el resultado tendra la siguiente forma:
                         <br></br>
                         <br></br>
@@ -90,9 +103,10 @@ function Compilador_sencillo() {
                             "El resultado es: &lt;RESULTADO DE LA INSTRUCCIÓN&gt;"
                         </code>
                     </p>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         A continuación, se muestra un ejemplo del archivo "entrada.txt" cargado en el sistema y el resultado que genera.
                     </p>
+                    <div className="text-center">
                     <img src="/proyectos/compilador_sencillo/4.png" title="entrada.txt" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/4.png")} alt="img sistema 4" loading="lazy"></img>
                     <p className="mt-3" style={{textAlign: "justify"}}>
                         Salida:
@@ -100,14 +114,15 @@ function Compilador_sencillo() {
                     <img src="/proyectos/compilador_sencillo/1.png" title="Salida parte 1" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/1.png")} alt="img sistema 1" loading="lazy"></img><br />
                     <img src="/proyectos/compilador_sencillo/2.png" title="Salida parte 2" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/2.png")} alt="img sistema 2" loading="lazy"></img><br />
                     <img src="/proyectos/compilador_sencillo/3.png" title="Salida parte 3" className="img-fluid mt-2 w-50 border border-dark rounded" data-bs-toggle="modal" data-bs-target="#modalImagen" style={{cursor: "zoom-in"}} onClick={() => handleImageClick("/proyectos/compilador_sencillo/3.png")} alt="img sistema 3" loading="lazy"></img>
+                    </div>
                 </div>
             </section>
 
-            <section className="card card-body mt-3">
+            <section className="card card-body mt-3 card-borde">
                 <div className="px-md-5">
-                    <h3 className="pb-4 pt-4" style={{textAlign: "start"}}>Funcionamiento del compilador</h3>
+                    <h3 className="pb-4 pt-4 texto-subt-efecto" style={{textAlign: "start"}}>Funcionamiento del compilador</h3>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>1)</strong> Se guarda cada instrucción por separado.
                         </p>
                         <pre><code className="language-python">{`instrucciones = []
@@ -117,7 +132,7 @@ with open('entrada.txt') as texto:
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>2)</strong> Se definen los tokens para los elementos.
                         </p>
                         <pre className="line-numbers"><code className="language-python">{`tokens = ('OPERACIONES','PARENT_IZQ','PARENT_DER','COR_IZQ','COR_DER','MAS','MENOS','POR',
@@ -127,7 +142,7 @@ with open('entrada.txt') as texto:
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>3)</strong> Se asigna el valor para los tokens definidos.
                         </p>
                         <pre><code className="language-python">{`t_OPERACIONES  = r'Operacion'
@@ -146,14 +161,14 @@ t_CONEXION = r'[aA]'`}
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>3)</strong> Se indican los carácteres ignorados.
                         </p>
                         <pre><code className="language-python">{`t_ignore = " \t|Â"`}
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>4)</strong> Tokens que regresan un valor.
                         </p>
                         <pre><code className="language-python">{`def t_DECIMAL(t):
@@ -215,14 +230,14 @@ def t_error(t):
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>5)</strong> Se construye el analizador léxico
                         </p>
                         <pre><code className="language-python">{`lexer = lex.lex()`}
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>6)</strong> Declarando reglas de precedencia
                         </p>
                         <pre><code className="language-python">{`precedence = (('left','MAS','MENOS'),('left','POR','DIVIDIDO'),
@@ -230,7 +245,7 @@ def t_error(t):
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>7)</strong> Definición de la gramática para los casos de operaciones, mezcla de colores y conversiones. 
                         </p>
                         <pre><code className="language-python">{`def p_instrucciones_lista(t):
@@ -314,7 +329,7 @@ def t_error(t):
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>8)</strong> En caso de no cumplir con las reglas.
                         </p>
                         <pre><code className="language-python">{`def p_error(t):
@@ -326,14 +341,14 @@ def t_error(t):
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>9)</strong> Se construye el analizador sintáctico.
                         </p>
                         <pre><code className="language-python">{`parser = yacc.yacc()`}
                         </code></pre>
                     </div>
                     <div>
-                        <p style={{textAlign: "justify"}}>
+                        <p>
                             <strong>10)</strong> Finalmente se utiliza YACC.
                         </p>
                         <pre><code className="language-python">{`for linea in instrucciones:

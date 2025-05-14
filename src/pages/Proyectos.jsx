@@ -17,10 +17,12 @@ function Proyectos() {
             </Helmet>
 
             <div className="mt-5 mb-4">
-                <h1 className="display-4 text-center">Proyectos</h1>
+                <h1 className="display-4 text-center">
+                    <span className="letra-hover-efecto">P</span><span className="letra-hover-efecto">r</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">y</span><span className="letra-hover-efecto">e</span><span className="letra-hover-efecto">c</span><span className="letra-hover-efecto">t</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">s</span>
+                </h1>
             </div>
 
-            <section className="card card-body pt-4 m-2 bg-light">
+            <section className="card card-body card-borde pt-4 m-2 bg-light">
                 <p style={{textAlign: "center"}}>
                     Algunos de los proyectos académicos y personales que he realizado son los siguientes.
                 </p>
@@ -29,12 +31,12 @@ function Proyectos() {
             <section>
                 <div className="container">
                     <div className="row">
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Chatbot Sencillo</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
-                                        Para este proyecto relacionado con la construcción de un chatbot, la programación del sistema se realizó en Python implementando  diccionarios para apuntar a los distintos temas del chatbot, esto, buscando aplicar la lógica de un grafo. Además, se utilizó el paquete tkinter para crear una sencilla interfaz gráfica que ayudará a que el usuario tenga una experiencia muy parecida a la de las aplicaciones de mensajería convencionales.
+                                    <p >
+                                        Para este proyecto, la programación del sistema se realizó en Python implementando diccionarios para apuntar a los distintos temas del chatbot, esto, buscando aplicar la lógica de un grafo. Además, se utilizó el paquete tkinter para crear una sencilla interfaz gráfica buscando que el usuario tenga una experiencia parecida a la de las aplicaciones de mensajería convencionales.
                                         <br></br><br></br>
                                         El sistema muestra algunas recomendaciones de contenido multimedia en plataformas como Netflix, HBO Max, Disney+, Youtube y Spotify. Estas recomendaciones corresponden a películas, series, documentales, canciones o canales dependiendo de la plataforma que se le indique al chatbot.
                                     </p>
@@ -55,11 +57,11 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">App Gestor de Presupuestos</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
+                                    <p >
                                         La aplicación Gestor de Presupuestos fue diseñada para ayudar al usuario a administrar sus ingresos y egresos de manera local mediante presupuestos que puede elaborar con categorias dinamicamente.
                                         <br></br><br></br>
                                         Con gráficos y reportes, se busca brindar apoyo al usuario en la toma de decisiones y supervisión de sus finanzas.
@@ -82,14 +84,14 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">App Guía de Videojuego</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
-                                        Esta idea de aplicación se realizó para ayudar a los jugadores de la saga <i>Persona</i> y más específicamente de <i>Persona 4 Golden</i>, porque justamente se tomó como inspiración para construir esta app aplicaciones similares, más en concreto, las apps que ayudan a los jugadores de Monster hunter (un ejemplo MHGUDB en la Play Store), que ayudan recopilando varios datos del juego para que el jugador conozca y busque lo que no puede encontrar en el juego.
+                                    <p >
+                                        Esta idea de aplicación se realizó para ayudar a los jugadores de la saga <i>Persona</i> y más específicamente de <i>Persona 4 Golden</i>. Se tomaron como inspiración las apps que ayudan a los jugadores de Monster Hunter (un ejemplo MHGUDB en la Play Store), que ayudan recopilando varios datos del juego para que el jugador conozca y busque lo que no puede encontrar en el juego.
                                         <br></br><br></br>
-                                        Entonces, esta app esta pensada para ser una guía/wiki para los jugadores de <i>Persona 4</i> y, con ello, recopilar todos los datos del juego para así ya no tener que estar usando 15 diferentes páginas para encontrar lo que buscas, si no, que toda la información se encuentre en una sola app.
+                                        Entonces, esta app esta pensada para ser una guía/wiki para los jugadores de <i>Persona 4</i> y, con ello, recopilar todos los datos del juego para así ya no tener que estar usando diferentes páginas para encontrar lo que buscas, sino que toda la información se encuentre en una sola app.
                                     </p>
                                     <p>
                                         <span className="badge bg-warning text-dark">Android</span>{' '}
@@ -109,11 +111,11 @@ function Proyectos() {
                             </div>
                         </section>
                         
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Probabilidades de partidos</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
+                                    <p >
                                         El objetivo de este proyecto fue simular un evento, por lo cual, se tomó la decisión de construir un sistema en Python con el que se pudieran obtener las probabilidades de que al enfrentarse dos equipos de futbol se obtuvieran como resultado los porcentajes de victoria o empate del encuentro.
                                         <br></br><br></br>
                                         Estas probabilidades se obtienen de los datos introducidos por el usuario, los cuales, corresponden a goles anotados, goles recibidos, partidos jugados, tiros a puerta, entre otros. Los resultados se muestran mediante gráficas para facilitar su visualización y análisis.
@@ -136,12 +138,12 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Bases de datos relacionales</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
-                                        En esta sección se colocaron algunas de las bases de datos relacionales que he implementado como parte de proyectos académicos. Dichas bases, se modelaron teniendo en cuenta las formas normales para cuidar la integradad de los datos y evitar redundancia. Al final de cada sección correspondiente a una base, se incluye el diagrama entidad-relación de la base de datos y los enlaces a los scripts <i>.sql</i> con la creación de tablas, inserciones, triggers, procedimientos almacenados, funciones y vistas, según sea el caso.
+                                    <p >
+                                        En esta sección se encuentran algunas de las bases de datos relacionales que he implementado como parte de proyectos académicos. Dichas bases, se modelaron teniendo en cuenta las formas normales para cuidar la integradad de los datos y evitar redundancia. Al final de cada sección correspondiente a una base, se incluye el diagrama entidad-relación de la base de datos y los enlaces a los scripts <i>.sql</i> con la creación de tablas, inserciones, triggers, procedimientos almacenados, funciones y vistas, según sea el caso.
                                     </p>
                                     <p>
                                         <span className="badge bg-warning text-dark">SQL</span>{' '}
@@ -159,11 +161,11 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Sistema de recomendaciones sencillo</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
+                                    <p >
                                         En este proyecto se diseño un clasificador bayesiano ingenuo que permite predecir el comportamiento de un cliente. Esto se utiliza para que el sistema pueda recomendar un tipo de bebida (fría o caliente) dependiendo de si el cliente es una persona menor, adulta o un adulto mayor; y también dependiendo del estado del clima que se le indique (cálido, frío o templado).
                                     </p>
                                     <p>
@@ -183,11 +185,11 @@ function Proyectos() {
                             </div>
                         </section>
                         
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Ejemplo de compilador sencillo</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
+                                    <p >
                                         Este proyecto académico se realizó con el objetivo de conocer el proceso de construcción de un compilador a través de dos elementos tradicionales como lo son el Analizador Léxico y Sintáctico, además de su implementación con herramientas disponibles que proporciona Python.
                                     </p>
                                     <p>
@@ -208,11 +210,11 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Algoritmo genético y convertidor de AFND a AFD</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
+                                    <p >
                                         En esta sección se muestran dos proyectos académicos. Uno corresponde a la aplicación de un algoritmo genético para encontrar un numero de cuatro dégitos. Mientras que el segundo es un convertidor de Autómata Finito No Determinista (AFND) en un Autómata Finito Determinista (AFD).
                                     </p>
                                     <p>
@@ -231,11 +233,11 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Práctica cifrado</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
+                                    <p >
                                         El objetivo de este proyecto académico fue poner en práctica conceptos básicos de seguridad, mediante la creación de un sitio web donde se le pide a los usuarios crear una cuenta, o en su defecto, iniciar sesión para poder ingresar a la página principal. Una vez estando en la página principal, el usuario puede aplicar un cifrado o descifrado básico al texto que introduzca según sea el caso. El contenido a cifrar y descifrar acepta tanto texto como carácteres especiales y emojis.
                                     </p>
                                     <p>
@@ -257,11 +259,11 @@ function Proyectos() {
                             </div>
                         </section>
 
-                        <section className="col-md-6 col-lg-4 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto">
+                        <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">
                                 <p className="texto-categoria-tec text-center fw-semibold">Videojuegos</p>
                                 <div>
-                                    <p style={{textAlign: "justify"}}>
+                                    <p >
                                         En esta sección se muestran los distintos tipos de videojuegos que he desarrollado como proyectos académicos. Los cuales, corresponden a un RGP sencillo, un recorrido virtual con elementos interactivos y por último, un pseudo flappy bird. Los tres proyectos fueron realizados con una combinación tanto de assets y modelos 3D personalizados, así como con elementos gratuitos disponibles en la tienda de Unity.
                                     </p>
                                     <p>

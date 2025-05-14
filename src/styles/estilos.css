@@ -45,3 +45,86 @@
     box-shadow: 0 14px 8px rgba(0,0,0,0.2);
     z-index: 10;
 }
+
+.efecto-card-glow {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: transform 0.3s ease;
+}
+
+.efecto-card-glow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(0, 123, 255, 0.2) 0%, rgba(0, 123, 255, 0) 70%);
+  opacity: 0;
+  z-index: -1;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.efecto-card-glow:hover::before {
+  opacity: 1;
+}
+
+.letra-hover-efecto {
+    position: relative;              
+    display: inline-block;
+    transition: transform 0.2s ease, font-weight 0.3s ease, color 0.3s ease;
+    z-index: 1;                      
+}
+
+.letra-hover-efecto::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 123, 255, 0.2), transparent 70%);
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: -1;
+    pointer-events: none;     
+}
+
+.letra-hover-efecto:hover {
+    transform: scale(1.1);
+    color: #00052f;
+    font-weight: 600;
+}
+
+.letra-hover-efecto:hover::before {
+    width: 2.5em;    
+    height: 2.5em;
+    opacity: 1;
+}
+
+.texto-subt-efecto {
+    transition: transform 0.3s ease, font-weight 0.3s ease, color 0.3s ease;
+}
+
+.texto-subt-efecto:hover {
+    transform: scale(1.06);
+    color: #00052f;
+    font-weight: 600;
+}
+
+.card-borde {
+    transition: border-color 0.3s ease;
+}
+
+.card-borde:hover {
+    border-color: #00052f;
+}
+
+.palabra {
+    white-space: nowrap;
+}

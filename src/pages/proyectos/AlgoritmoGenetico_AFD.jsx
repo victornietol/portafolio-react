@@ -22,12 +22,34 @@ function AlgoritmoGenetico_AFD() {
             </Helmet>
 
             <div className="mt-5 mb-4">
-                <h1 className="display-4 text-center">Algoritmo Genético y Convertidor AFND a AFD</h1>
+                <h1 className="display-4 text-center">
+                    <span>
+                        <span className="letra-hover-efecto">A</span><span className="letra-hover-efecto">l</span><span className="letra-hover-efecto">g</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">r</span><span className="letra-hover-efecto">i</span><span className="letra-hover-efecto">t</span><span className="letra-hover-efecto">m</span><span className="letra-hover-efecto">o</span>{" "}
+                    </span>
+                    <span className="palabra">
+                        <span className="letra-hover-efecto">G</span><span className="letra-hover-efecto">e</span><span className="letra-hover-efecto">n</span><span className="letra-hover-efecto">é</span><span className="letra-hover-efecto">t</span><span className="letra-hover-efecto">i</span><span className="letra-hover-efecto">c</span><span className="letra-hover-efecto">o</span>{" "}
+                    </span>
+                    <span>
+                        <span className="letra-hover-efecto">y</span>{" "}
+                    </span>
+                    <span className="palabra">
+                        <span className="letra-hover-efecto">C</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">n</span><span className="letra-hover-efecto">v</span><span className="letra-hover-efecto">e</span><span className="letra-hover-efecto">r</span><span className="letra-hover-efecto">t</span><span className="letra-hover-efecto">i</span><span className="letra-hover-efecto">d</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">r</span>{" "}
+                    </span>
+                    <span>
+                        <span className="letra-hover-efecto">A</span><span className="letra-hover-efecto">F</span><span className="letra-hover-efecto">N</span><span className="letra-hover-efecto">D</span>{" "}
+                    </span>
+                    <span>
+                        <span className="letra-hover-efecto">a</span>{" "}
+                    </span>
+                    <span className="palabra">
+                        <span className="letra-hover-efecto">A</span><span className="letra-hover-efecto">F</span><span className="letra-hover-efecto">D</span>
+                    </span>
+                </h1>
             </div>
 
             <div className="container">
                 <div className="row">
-                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light">
+                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light efecto-card-glow">
                         <div className="px-md-5 text-center">
                             <h3>Tecnologías empleadas</h3>
                             <p>
@@ -38,7 +60,7 @@ function AlgoritmoGenetico_AFD() {
                         </div>
                     </section>
                     
-                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light">
+                    <section className="col-md-6 col-lg-4 card card-body m-1 d-flex flex-column align-items-center justify-content-center bg-light efecto-card-glow">
                         <div className="px-md-5 text-center">
                             <h3>Repositorios</h3>
                             <p>
@@ -55,10 +77,10 @@ function AlgoritmoGenetico_AFD() {
                 </div>
             </div>
             
-            <section className="card card-body mt-2">
-                <div className="px-md-5 text-center">
-                    <h3 className="pb-3 pt-3" style={{textAlign: "start"}}>Descripción</h3>
-                    <p style={{textAlign: "justify"}}>
+            <section className="card card-body mt-2 card-borde">
+                <div className="px-md-5">
+                    <h3 className="pb-3 pt-3 texto-subt-efecto" style={{textAlign: "start"}}>Descripción</h3>
+                    <p>
                         En esta sección se muestran dos proyectos académicos. Uno corresponde a la aplicación de un algoritmo genético para encontrar un numero de cuatro dégitos. Mientras que el segundo es un convertidor de Autómata Finito No Determinista (AFND) en un Autómata Finito Determinista (AFD).
                         <br></br>
                         <a href="#algoritmo_genetico"><code>#Algoritmo Genético</code></a>
@@ -68,13 +90,13 @@ function AlgoritmoGenetico_AFD() {
                 </div>
             </section>
 
-            <section id="algotimo_genetico" className="card card-body mt-2">
+            <section id="algotimo_genetico" className="card card-body mt-2 card-borde">
                 <div className="px-md-5">
-                    <h3 className="pb-3 pt-3" style={{textAlign: "start"}}>Algoritmo genético</h3>
-                    <p style={{textAlign: "justify"}}>
+                    <h3 className="pb-3 pt-3 texto-subt-efecto" style={{textAlign: "start"}}>Algoritmo genético</h3>
+                    <p>
                         En este proyecto académico de la materia Diseño y Análisis de Algoritmos, se planteó el problema de encontrar un número de 4 dígitos generado al azar, a través de la información generada con los intentos hechos por encontrar el número. En cada intento de encontrarlo, al proponer un número, se indica cuantos dígitos del número se encuentran en buena posición y cuantos dígitos se encuentran en mala posición pero que sí pertenecen al número a encontrar. Por ejemplo, si el número a encontrar es 5439, y se propone el número 4679 como solución, entonces esto indicaría 1 dígito en posición correcta y 1 dígito en posición incorrecta, pero el sistema de primera mano no sabrá que dígito esta correcto y cual está fuera de posición. Por lo tanto, se utilizó un algoritmo genético para que a través de las generaciones se produjeran individuos que estuvieran cada vez más cerca del número objetivo, esto, utilizando la información de las posiciones correctas e incorrectas para ir ajustando el sistema.
                     </p>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         El problema se planteó de la siguiente manera: Cada individuo tiene 4 dígitos (20 bits en total). En consecuencia cada dígito consta de 5 bits donde los primeros 2 bits corresponden a la posición y los 3 siguientes al valor del dígito. Por lo tanto, cada dígito se representa con 3 bits porque el dígito puede ir de 1 a 8. Mientras que la posición de cada dígito se asigna con los elementos de una lista con valores en decimal donde cada vez que se ocupa una posición se elimina dicha posición de la lista con el objetivo de evitar las repeticiones en cuanto a la posición y posteriormente se convierte a binario. Por lo tanto, la correspondencia en cuanto a el valor de los dígitos y la posición es la siguiente:
                     </p>
                     <p className="text-center">
@@ -91,8 +113,8 @@ function AlgoritmoGenetico_AFD() {
                         <br></br>
                         donde el dígito 8 corresponde a los 5 bits siguientes: 01111  
                     </p>
-                    <h4 className="mt-5" style={{textAlign: "start"}}>Descripción del sistema</h4>
-                    <p style={{textAlign: "justify"}}>
+                    <h4 className="mt-5 texto-subt-efecto" style={{textAlign: "start"}}>Descripción del sistema</h4>
+                    <p>
                         Se genera un individuo de forma binaria, primero se genera la posición seleccionando un decimal al azar de una lista y después se convierte a binario. Posteriormente se genera el dígito directamente en binario al azar y se unen en un arreglo ambas partes en forma binaria.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -134,7 +156,7 @@ function AlgoritmoGenetico_AFD() {
     return individuo`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Se genera la población que se utiliza en el algoritmo genético dependiendo del número de individuos.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -146,7 +168,7 @@ function AlgoritmoGenetico_AFD() {
     return poblacion`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Pasando de binario a decimal cada individuo, sin que sea su representación final aún.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -159,17 +181,17 @@ function AlgoritmoGenetico_AFD() {
     return decimal`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Pasando cada individuo de su forma decimal a su representación en dígito final planteada para este problema.
                     </p>
                     <div className="card card-body mt-4 mb-4">
-                        <pre><code className="language-python">{`def bitsADigito(self,d):  
+                        <pre><code className="language-python">`{`def bitsADigito(self,d):  
     n = self.binarioADecimal(d) 
     digito = n+1
-    return digito`}
+    return digito`}`
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Pasando de genotipo a fenotipo, donde cada individuo (código) se guarda en una lista que contiene otras 4 listas, cada una con un dígito y su posición, por lo tanto, se guardan así [ [dígito,posición], [d,p], [d,p], [d,p] ]
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -185,7 +207,7 @@ function AlgoritmoGenetico_AFD() {
     return C`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Realizado la cruza para el proceso evolutivo del algoritmo genético con un punto de cruza generado al azar.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -196,7 +218,7 @@ function AlgoritmoGenetico_AFD() {
     return desc1, desc2`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Proceso de mutación de un individuo seleccionado al azar para el proceso evolutivo del algoritmo genético.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -206,7 +228,7 @@ function AlgoritmoGenetico_AFD() {
     return ind`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Revisa las posiciones de cada dígito de un código para poder rankear a cada individuo en la evaluación de cada código.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -222,7 +244,7 @@ function AlgoritmoGenetico_AFD() {
     return a, b`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Asigna el dígito a otra variable para poder valorar el individuo según la posición de sus dígitos y regresa el número de dígitos en posició correcta (a) y el número de dígitos en posición incorrecta (b)
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -234,7 +256,7 @@ function AlgoritmoGenetico_AFD() {
     return a, b`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Calificando al individuo dependiendo de la posición de sus dígitos.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -272,7 +294,7 @@ function AlgoritmoGenetico_AFD() {
         return 14`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Pasa al individuo de su forma en bits a dígitos y después lo evalua.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -282,7 +304,7 @@ function AlgoritmoGenetico_AFD() {
     return evaluacion`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Valora la población y guarda la evaluación de cada individuo en una lista.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -293,7 +315,7 @@ function AlgoritmoGenetico_AFD() {
     return evaluacion`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Genera los índices para la cruza y con ello generar los dos descendientes.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -309,7 +331,7 @@ function AlgoritmoGenetico_AFD() {
     return a, b`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Recorre todas las evaluaciones y busca la correspondiente al mejor individuo y al peor individuo (evaluación más alta y más baja).
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -324,7 +346,7 @@ function AlgoritmoGenetico_AFD() {
     return mejor, peor`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Realiza el proceso evolutivo del algoritmo genético generando una nueva población como resultado de la cruza y en ciertas ocasiones también se realiza mutación dependiendo de un valor al azar.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -350,7 +372,7 @@ function AlgoritmoGenetico_AFD() {
     return nuevaPoblacion`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Inicio del algoritmo genético dependiendo del número de individuos, el tamaño de cada individuo y el número de generaciones.
                         <br></br>
                         Si se tiene al mejor individuo generado con la ejecución anterior se toma en cuenta al crear la población.
@@ -374,7 +396,7 @@ function AlgoritmoGenetico_AFD() {
     return mejorCodigo, poblacion[mejor]   # Regresa el código  representacion decimal (mejorCodigo) y binaria (poblacion[mejor])`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Generando de forma aleatoria el código de 4 dígitos que se va a buscar, donde cada dígito puede ir desde 1 a 8.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -409,7 +431,7 @@ def intentosAlAzar(self,nIntentos,AG):
     return intentosBin[indice],intentosFeno[indice],intentosLista[indice],a_b[indice][0],a_b[indice][1]`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Acomodando el dígito ingresado según su posición.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -423,7 +445,7 @@ def intentosAlAzar(self,nIntentos,AG):
         pass`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Verificando si se encontró el código.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -439,7 +461,7 @@ def intentosAlAzar(self,nIntentos,AG):
     return a, b`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Inicio del juego, en cada intento buscará encontrar el código con el algoritmo genético.
                         <br></br>
                         Si no se encuentra el código en la ejecucion actual, se utiliza el mejor código generado anterior en la siguiente ejecución del algoritmo genérico.
@@ -468,14 +490,14 @@ def intentosAlAzar(self,nIntentos,AG):
                 </div>
             </section>
 
-            <section id="convertidor_afnd" className="card card-body mt-2">
+            <section id="convertidor_afnd" className="card card-body mt-2 card-borde">
                 <div className="px-md-5">
-                    <h3 className="pb-3 pt-3" style={{textAlign: "start"}}>Convertidor de AFND a AFD</h3>
-                    <p style={{textAlign: "justify"}}>
+                    <h3 className="pb-3 pt-3 texto-subt-efecto" style={{textAlign: "start"}}>Convertidor de AFND a AFD</h3>
+                    <p>
                         Como proyecto académico de la materia Lenguajes Formales y Autómatas, se realizó un programa para convertir un Autómata Finito No Determinista (AFND) en un Autómata Finito Determinista (AFD) que reconozca el mismo lenguaje. El código del programa y un resultado ejemplo de la ejecución se muestra a continuación.
                     </p>
-                    <h4 style={{textAlign: "start"}}>Código del programa</h4>
-                    <p style={{textAlign: "justify"}}>
+                    <h4 className="texto-subt-efecto" style={{textAlign: "start"}}>Código del programa</h4>
+                    <p>
                         Clase para eliminar transiciones vacias.
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -594,7 +616,7 @@ def intentosAlAzar(self,nIntentos,AG):
         return self.automataFinal`}
                         </code></pre>
                     </div>
-                    <p style={{textAlign: "justify"}}>
+                    <p>
                         Clase para convertir de AFND a AFD
                     </p>
                     <div className="card card-body mt-4 mb-4">
@@ -726,7 +748,7 @@ def intentosAlAzar(self,nIntentos,AG):
         self.__hacer_nAutomata()`}
                         </code></pre>
                     </div>
-                    <h4 style={{textAlign: "start"}}>Ejemplo de resuitado de ejecución.</h4>
+                    <h4 className="texto-subt-efecto" style={{textAlign: "start"}}>Ejemplo de resuitado de ejecución.</h4>
                     <p>
                         <strong>1)</strong> Generando el automata
                         <br></br>
