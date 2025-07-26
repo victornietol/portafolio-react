@@ -14,6 +14,7 @@ import Recomendador_beb from "./pages/proyectos/Recomendador_beb";
 import Compilador_sencillo from "./pages/proyectos/Compilador_sencillo";
 import AlgoritmoGenetico_AFD from "./pages/proyectos/AlgoritmoGenetico_AFD";
 import Practica_cifrado from "./pages/proyectos/Practica_cifrado";
+import Ubicaciones_transporte from './pages/proyectos/Ubicaciones_transporte';
 import Videojuegos from "./pages/proyectos/Videojuegos";
 import NotFound from './pages/NotFound';
 
@@ -36,6 +37,7 @@ function App() {
             <Route path="/proyectos/proyecto_compilador_sencillo" element={<Compilador_sencillo />} />
             <Route path="/proyectos/proyecto_algoritmoGenetico_AFD" element={<AlgoritmoGenetico_AFD />} />
             <Route path="/proyectos/proyecto_practica_cifrado" element={<Practica_cifrado />} />
+            <Route path="/proyectos/proyecto_ubicaciones_transporte" element={<Ubicaciones_transporte />} />
             <Route path="/proyectos/proyecto_videojuegos" element={<Videojuegos />} />
 
             <Route path='*' element={<NotFound />} />
