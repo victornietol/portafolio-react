@@ -23,7 +23,7 @@ function Home() {
                             <span className="letra-hover-efecto">L</span><span className="letra-hover-efecto">i</span><span className="letra-hover-efecto">c</span><span className="letra-hover-efecto">o</span><span className="letra-hover-efecto">n</span><span className="letra-hover-efecto">a</span>
                         </span>
                     </h1>
-                    <h3 className="text-center text-secondary texto-subt-efecto" style={{ letterSpacing: "1.5px" }}>Egresado de Ingeniería en Computación</h3>
+                    <h3 className="text-center text-secondary texto-subt-efecto" style={{ letterSpacing: "1.5px" }}>Ingeniero en Computación</h3>
                 </div>
                 <hr></hr>
                 <div className="px-md-5">
@@ -109,7 +109,7 @@ function Home() {
                     <h4>Licenciatura en Ingeniería en Computación</h4>
                     <p>
                         Facultad de Estudios Superiores Aragón • UNAM <br></br>
-                        *Titulación en proceso por alto rendimiento académico (promedio 9.72)
+                        <i>Titulación por alto rendimiento académico (promedio 9.72)</i>
                     </p>
                     <p></p>
                 </div>
