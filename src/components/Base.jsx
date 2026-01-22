@@ -109,7 +109,7 @@ function Base() {
 
             <footer className="bg-dark text-secondary text-center py-3 mt-auto">
                 <p className="mb-0">
-                    2025 | Victor Manuel Nieto Licona | <NavLink className="text-secondary" to="/contacto">Contacto</NavLink>
+                    2026 | Victor Manuel Nieto Licona | <NavLink className="text-secondary" to="/contacto">Contacto</NavLink>
                 </p>
             </footer>
 

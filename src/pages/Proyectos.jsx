@@ -2,6 +2,8 @@ import { Helmet } from 'react-helmet-async';
 import { NavLink } from "react-router-dom";
 import { useOutletContext } from "react-router-dom";
 
+import Section_GestionBib from '../components/projects_sections/Section_GestionBib';
+
 function Proyectos() {
     const { setModalSrc, openModal } = useOutletContext();
 
@@ -56,6 +58,8 @@ function Proyectos() {
                                 </div>
                             </div>
                         </section>
+
+                        <Section_GestionBib handleImageClick={handleImageClick} />
 
                         <section className="col-md-4 col-lg-3 card card-body m-2 d-flex flex-column align-items-center justify-content-center card-hover-efecto efecto-card-glow">
                             <div className="pt-2">

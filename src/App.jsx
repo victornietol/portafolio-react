@@ -16,6 +16,7 @@ import AlgoritmoGenetico_AFD from "./pages/proyectos/AlgoritmoGenetico_AFD";
 import Practica_cifrado from "./pages/proyectos/Practica_cifrado";
 import Ubicaciones_transporte from './pages/proyectos/Ubicaciones_transporte';
 import Videojuegos from "./pages/proyectos/Videojuegos";
+import Gestion_biblioteca from './pages/proyectos/Gestion_biblioteca';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
             <Route path="/proyectos/proyecto_practica_cifrado" element={<Practica_cifrado />} />
             <Route path="/proyectos/proyecto_ubicaciones_transporte" element={<Ubicaciones_transporte />} />
             <Route path="/proyectos/proyecto_videojuegos" element={<Videojuegos />} />
+            <Route path="/proyectos/gestion_biblioteca" element={<Gestion_biblioteca />} />
 
             <Route path='*' element={<NotFound />} />
           </Route>
