@@ -65,7 +65,7 @@ function Gestion_biblioteca() {
                 <div className="px-md-5">
                     <h3 className="pb-3 pt-3 texto-subt-efecto" style={{textAlign: "start"}}>Introducción</h3>
                     <p>
-                        Esta aplicación de escritorio fue creada con el objetivo de agilizar la administración en cuanto al inventario de libros, préstamos, generación de reportes, y clientes de una biblioteca que atendía a 3 escuelas en una zona pequeña. Esta solución sencilla ayudó para dejar de lado la administración a mano del lugar.
+                        Esta aplicación de escritorio fue creada con el objetivo de agilizar la administración en cuanto al inventario de libros, préstamos, generación de reportes, y clientes de una biblioteca que atendía a 3 escuelas en una zona pequeña. Esta solución sencilla ayudó para dejar de lado la administración que se realizaba a mano del lugar.
                         <br></br><br></br>
                         El proyecto se realizó con Java, JavaFX y MySQL debido a la practicidad de dichas herramientas ya que solo se necesitaba una interfaz sencilla, además de que el modelo de negocios del lugar no era muy robusto y todo tenía que implementarse de manera local. También, se utilizó <i>argon2</i> para cifrar las contraseñas y <i>pdfbox</i> para generar los archivos pdf.
                     </p>

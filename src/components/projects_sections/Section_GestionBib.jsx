@@ -8,7 +8,7 @@ function Section_GestionBib({ handleImageClick }) {
                     <p className="texto-categoria-tec text-center fw-semibold">Gestor de biblioteca</p>
                     <div>
                         <p >
-                            Esta aplicación de escritorio fue creada con el objetivo de agilizar la administración en cuanto al inventario de libros, préstamos, generación de reportes, y clientes de una biblioteca que atendía a 3 escuelas en una zona pequeña. Esta solución sencilla ayudó para dejar de lado la administración a mano del lugar. 
+                            Esta aplicación de escritorio fue creada con el objetivo de agilizar la administración en cuanto al inventario de libros, préstamos, generación de reportes, y clientes de una biblioteca que atendía a 3 escuelas en una zona pequeña. Esta solución sencilla ayudó para dejar de lado la administración que se realizaba a mano del lugar. 
                         </p>
                         <p>
                             <span className="badge bg-warning text-dark">Java</span>{' '}
