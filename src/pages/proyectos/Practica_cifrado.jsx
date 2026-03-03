@@ -93,9 +93,14 @@ function Practica_cifrado() {
                     <p>
                         Mientras que, respecto a la aplicación del cifrado César, se aplica de la siguiente manera: Se obtiene el valor ascii de cada carácter del texto introducido por el usuario como mensaje, después, a ese valor se le suma el valor generado correspondiente a la llave y se le aplica una operación modular para mantener el valor del corrimiento dentro del rango de carácteres ascii posibles, por lo tanto, la operación es la siguiente: <code>(valor_ascci + llave) % máximo_posible_ascii</code>. En consecuencia, para descifrar, se utliza la misma llave con la que se cifro y el proceso es el mismo pero ahora se resta la llave.
                     </p>
+                    <br />
+                    <div className="text-center" style={{backgroundColor: 'yellow', fontWeight: 'bold'}}>AVISO</div>
+                    <p>
+                        Al visitar el sitio, el navegador web puede mostrar un mensaje de advertencia indicando que no es un sitio seguro debido a riesgos de phishing o problemas de seguridad. Esto se debe a que el sitio pide ingresar o crear nuevas credenciales para acceder a la funcion de cifrado de texto, además, al utilizar un hosting gratuito como InfinityFree se pueden presentar conflictos con los certificados para HTTPS. Por lo tanto, el resultado de la combinación de estos dos factores puede provocar que el sitio sea marcado como phishing, ya que, este comportamiento suele ocurrir en sitios con ataques de ese tipo. Se le recomienda al usuario no ingresar credenciales reales relacionadas a otros servicios web y solo ingresar o crear credenciales ficticias con fines de prueba.
+                    </p>
                     <div className="text-center">
                         <a className="btn btn-dark btn-hover-efecto mb-3 mt-4" style={{background: "#020059"}} href="https://practica-cifrado.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-box-arrow-up-right me-1"></i> Visitar sitio
+                            <i className="bi bi-box-arrow-up-right me-1"></i> Visitar sitio (puede mostrar advertencia)
                         </a>
                     </div>
                 </div>
