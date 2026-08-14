@@ -27,7 +27,7 @@ function Home() {
                 </div>
                 <hr></hr>
                 <div className="px-md-5">
-                    <p>"Recién egresado de Ingeniería en Computación, con enfoque en Desarrollo de Software en busca de aplicar y ampliar mis habilidades y conocimientos en un entorno profesional con el objetivo de contribuir a la creación, implementación y mantenimiento de sistemas y aplicaciones que aporten valor. He aprendido a adaptarme a las tecnologías y herramientas según las necesidades del proyecto, lo cual, me ha permitido desarrollar proyectos como aplicaciones móviles, chatbot básico basado en grafos, programas sencillos con interfaz, sitios web, bases de datos relacionales, implementación de servidores locales, desarrollo de videojuegos, entre otros."</p>
+                    <p>"Egresado de Ingeniería en Computación, con enfoque en Desarrollo de Software en busca de aplicar y ampliar mis habilidades y conocimientos en un entorno profesional con el objetivo de contribuir a la creación, implementación y mantenimiento de sistemas y aplicaciones que aporten valor. He aprendido a adaptarme a las tecnologías y herramientas según las necesidades del proyecto, lo cual, me ha permitido desarrollar proyectos como aplicaciones móviles, chatbot básico basado en grafos, programas sencillos con interfaz, sitios web, bases de datos relacionales, implementación de servidores locales, desarrollo de videojuegos, entre otros."</p>
                 </div>
                 <div className='text-center'>
                     <NavLink className="btn btn-dark btn-hover-efecto mb-3 mt-1" style={{background: "#020059"}} to="/proyectos">
